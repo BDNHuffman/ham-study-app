@@ -120,3 +120,60 @@ button.secondary {
     grid-template-columns: 1fr;
   }
 }
+
+.clickable {
+  text-align: left;
+}
+
+.study-panel {
+  margin-top: 22px;
+  padding: 34px;
+  border-radius: 28px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.2);
+}
+
+.panel-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+  color: #fbbf24;
+  font-weight: 800;
+}
+
+.study-panel h2 {
+  font-size: clamp(28px, 5vw, 46px);
+  line-height: 1.1;
+}
+
+.answer {
+  margin-top: 22px;
+  padding: 22px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.08);
+}
+
+.answer h3 {
+  margin: 0 0 8px;
+  color: #fbbf24;
+}
+
+.choices {
+  display: grid;
+  gap: 12px;
+}
+
+.choices button {
+  text-align: left;
+}
+
+.correct {
+  background: #22c55e;
+}
+
+.wrong {
+  background: #ef4444;
+  color: white;
+}
