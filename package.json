@@ -1,24 +1,18 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f4f6f8;
-  color: #111;
-}
-
-.wrap {
-  max-width: 800px;
-  margin: auto;
-  padding: 40px 20px;
-}
-
-h1 {
-  font-size: 42px;
-}
-
-.card {
-  background: white;
-  padding: 24px;
-  border-radius: 14px;
-  margin-top: 24px;
-  box-shadow: 0 10px 20px rgba(0,0,0,.08);
+{
+  "name": "ham-study-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
 }
