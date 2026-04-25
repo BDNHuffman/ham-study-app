@@ -1,912 +1,6955 @@
 export const QUESTIONS = [
   {
-    id: 1,
-    exam: "Technician",
-    section: "T1A",
-    question: "What is the purpose of the Amateur Radio Service as stated in the FCC rules and regulations?",
-    choices: [
+    "id": "T1A01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "Which of the following is part of the Basis and Purpose of the Amateur Radio Service?",
+    "choices": [
       "Providing personal radio communications for as many citizens as possible",
-      "Providing communications for international private pilots",
+      "Providing communications for international contesting",
       "Advancing skills in the technical and communication phases of the radio art",
       "All these choices are correct"
     ],
-    answer: "Advancing skills in the technical and communication phases of the radio art"
+    "answer": "Advancing skills in the technical and communication phases of the radio art",
+    "answerLetter": "C",
+    "reference": "[97.1]",
+    "explanation": ""
   },
   {
-    id: 2,
-    exam: "Technician",
-    section: "T1A",
-    question: "Which agency regulates and enforces the rules for the Amateur Radio Service in the United States?",
-    choices: [
-      "FAA",
-      "FEMA",
-      "FCC",
-      "ARRL"
+    "id": "T1A02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "Which agency regulates and enforces the rules for the Amateur Radio Service in the United States?",
+    "choices": [
+      "ARRL",
+      "Homeland Security",
+      "The FCC",
+      "All these choices are correct"
     ],
-    answer: "FCC"
+    "answer": "The FCC",
+    "answerLetter": "C",
+    "reference": "[97.1]",
+    "explanation": ""
   },
   {
-    id: 3,
-    exam: "Technician",
-    section: "T1A",
-    question: "What do the FCC rules state regarding the use of a phonetic alphabet for station identification in the Amateur Service?",
-    choices: [
-      "It is required when transmitting emergency traffic",
-      "It is encouraged but not required",
-      "It is required for all digital modes",
-      "It is prohibited"
+    "id": "T1A03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "What do the FCC rules state regarding the use of a phonetic alphabet for station identification in the Amateur Radio Service?",
+    "choices": [
+      "It is required when transmitting emergency messages",
+      "It is encouraged when using phone emissions",
+      "It is required when in contact with foreign stations",
+      "All these choices are correct"
     ],
-    answer: "It is encouraged but not required"
+    "answer": "It is encouraged when using phone emissions",
+    "answerLetter": "B",
+    "reference": "[97.119(b)(2)]",
+    "explanation": ""
   },
   {
-    id: 4,
-    exam: "Technician",
-    section: "T1A",
-    question: "What is the FCC Part 97 definition of telemetry?",
-    choices: [
-      "A one-way transmission of measurements at a distance",
-      "Two-way voice communications",
-      "Transmission of weather bulletins",
-      "Encrypted digital traffic"
+    "id": "T1A04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "How do you receive official notification of your new license and call sign after passing the exam?",
+    "choices": [
+      "Email from the FCC with a link to download the license grant",
+      "USPS First-Class Mail from the FCC",
+      "Email from the lead volunteer examiner",
+      "USPS First-Class Mail from the lead volunteer examiner"
     ],
-    answer: "A one-way transmission of measurements at a distance"
+    "answer": "Email from the FCC with a link to download the license grant",
+    "answerLetter": "A",
+    "reference": "[97.23]",
+    "explanation": ""
   },
   {
-    id: 5,
-    exam: "Technician",
-    section: "T1A",
-    question: "What is the FCC Part 97 definition of broadcasting?",
-    choices: [
-      "Two-way transmissions intended for licensed amateurs",
-      "Transmissions intended for reception by the general public",
-      "Digital transmissions only",
-      "Transmission of telemetry data"
+    "id": "T1A05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "What proves that the FCC has issued an operator/primary license grant?",
+    "choices": [
+      "A printed copy of the certificate of successful completion of examination",
+      "An email notification from the NCVEC granting the license",
+      "The license appears in the FCC ULS database",
+      "All these choices are correct"
     ],
-    answer: "Transmissions intended for reception by the general public"
+    "answer": "The license appears in the FCC ULS database",
+    "answerLetter": "C",
+    "reference": "[97.7]",
+    "explanation": ""
   },
   {
-    id: 6,
-    exam: "Technician",
-    section: "T1B",
-    question: "When must an amateur station have a control operator?",
-    choices: [
-      "Only during contests",
-      "Only when using repeaters",
-      "Whenever the station is transmitting",
-      "Only for HF operation"
+    "id": "T1A06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "On which of the following HF frequencies can automatically controlled amateur propagation beacons be found?",
+    "choices": [
+      "Anywhere in the Technician portion of 10 meters",
+      "Anywhere, if they are registered with the FCC",
+      "In a specific portion of each of the HF Technician bands",
+      "On ten meters, between 28.200 MHz and 28.300 MHz"
     ],
-    answer: "Whenever the station is transmitting"
+    "answer": "On ten meters, between 28.200 MHz and 28.300 MHz",
+    "answerLetter": "D",
+    "reference": "[97.203(d)]",
+    "explanation": ""
   },
   {
-    id: 7,
-    exam: "Technician",
-    section: "T1B",
-    question: "Who may be the control operator of an amateur station?",
-    choices: [
-      "Any licensed amateur",
-      "Only Extra class licensees",
-      "Only the station owner",
-      "Anyone supervised by a club"
+    "id": "T1A07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "What is the FCC Part 97 definition of a space station?",
+    "choices": [
+      "Any satellite orbiting Earth",
+      "A manned satellite orbiting Earth",
+      "An amateur station located more than 50 km above Earth's surface",
+      "An amateur station using amateur radio satellites for relay of signals"
     ],
-    answer: "Any licensed amateur"
+    "answer": "An amateur station located more than 50 km above Earth's surface",
+    "answerLetter": "C",
+    "reference": "[97.3(a)(41)]",
+    "explanation": ""
   },
   {
-    id: 8,
-    exam: "Technician",
-    section: "T1B",
-    question: "What type of control is being used when the control operator is at the control point?",
-    choices: [
-      "Automatic control",
-      "Remote control",
-      "Local control",
-      "Repeater control"
+    "id": "T1A08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "Who recommends transmit/receive channels for repeater and auxiliary stations?",
+    "choices": [
+      "A Frequency Spectrum Manager appointed by the FCC",
+      "A Volunteer Frequency Coordinator recognized by local amateurs",
+      "An FCC Regional Field Office",
+      "The International Telecommunication Union"
     ],
-    answer: "Local control"
+    "answer": "A Volunteer Frequency Coordinator recognized by local amateurs",
+    "answerLetter": "B",
+    "reference": "[97.3(a)(22)]",
+    "explanation": ""
   },
   {
-    id: 9,
-    exam: "Technician",
-    section: "T1B",
-    question: "What type of control is being used when the control operator is not at the control point?",
-    choices: [
-      "Local control",
-      "Remote control",
-      "Automatic control",
-      "Relay control"
+    "id": "T1A09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "Who selects a Frequency Coordinator?",
+    "choices": [
+      "The FCC Office of Spectrum Management and Coordination Policy",
+      "The local chapter of the Office of National Council of Independent Frequency Coordinators",
+      "Amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations",
+      "The FCC Regional Field Office"
     ],
-    answer: "Remote control"
+    "answer": "Amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations",
+    "answerLetter": "C",
+    "reference": "[97.3(a)(22)]",
+    "explanation": ""
   },
   {
-    id: 10,
-    exam: "Technician",
-    section: "T1C",
-    question: "How often must an amateur station transmit its assigned call sign?",
-    choices: [
-      "At least every 10 minutes during a communication and at the end",
-      "Every 30 minutes",
-      "Only at the end of a contact",
-      "Only when requested"
+    "id": "T1A10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "Besides an FCC-issued amateur operator license, what is required to be the control operator of a Radio Amateur Civil Emergency Service (RACES) Station?",
+    "choices": [
+      "A written recommendation by the local ARRL Emergency Coordinator",
+      "Membership in the Amateur Radio Emergency Service (ARES)",
+      "Certification of current enrollment by a civil defense organization",
+      "Nothing"
     ],
-    answer: "At least every 10 minutes during a communication and at the end"
+    "answer": "Certification of current enrollment by a civil defense organization",
+    "answerLetter": "C",
+    "reference": "[97.407(a)]",
+    "explanation": ""
   },
   {
-    id: 11,
-    exam: "Technician",
-    section: "T1C",
-    question: "Which of the following is an acceptable language for station identification?",
-    choices: [
-      "Any language",
-      "English only",
-      "English using a phonetic alphabet if desired",
-      "Latin only"
+    "id": "T1A11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1A",
+    "question": "Which of the following is prohibited?",
+    "choices": [
+      "International communications on VHF bands and higher frequencies",
+      "Willful or malicious interference",
+      "Third-party traffic using digital modes",
+      "All these choices are correct"
     ],
-    answer: "English using a phonetic alphabet if desired"
+    "answer": "Willful or malicious interference",
+    "answerLetter": "B",
+    "reference": "[97.101(d)]",
+    "explanation": ""
   },
   {
-    id: 12,
-    exam: "Technician",
-    section: "T1D",
-    question: "When is it permissible to transmit messages encoded to obscure their meaning?",
-    choices: [
-      "During contests",
-      "For emergency traffic only",
-      "Only when transmitting control commands to space stations or radio control craft",
-      "Whenever both stations agree"
+    "id": "T1B01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "Which of the following frequency ranges are available for phone operation by Technician licensees?",
+    "choices": [
+      "28.050 MHz to 28.150 MHz",
+      "28.100 MHz to 28.300 MHz",
+      "28.300 MHz to 28.500 MHz",
+      "28.500 MHz to 28.600 MHz"
     ],
-    answer: "Only when transmitting control commands to space stations or radio control craft"
+    "answer": "28.300 MHz to 28.500 MHz",
+    "answerLetter": "C",
+    "reference": "[97.301(e)]",
+    "explanation": ""
   },
   {
-    id: 13,
-    exam: "Technician",
-    section: "T1D",
-    question: "What types of one-way communications are permitted in the Amateur Radio Service?",
-    choices: [
-      "Broadcast advertising",
-      "Code practice, information bulletins, and emergency communications",
-      "Music programming",
-      "Encrypted messages"
+    "id": "T1B02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "Which of the following U.S. amateur radio operators are allowed to contact the International Space Station (ISS) on VHF bands?",
+    "choices": [
+      "Only amateurs with a General class or higher license",
+      "Any amateur with a Technician class or higher license",
+      "Only amateurs with a General class or higher license, and NASA approval",
+      "Any amateurs with a Technician class or higher license, and NASA approval"
     ],
-    answer: "Code practice, information bulletins, and emergency communications"
+    "answer": "Any amateur with a Technician class or higher license",
+    "answerLetter": "B",
+    "reference": "[97.301, 97.207(c)]",
+    "explanation": ""
   },
   {
-    id: 14,
-    exam: "Technician",
-    section: "T1E",
-    question: "Who may operate under the supervision of a control operator?",
-    choices: [
-      "Only another licensed amateur",
-      "Only club officers",
-      "Anyone, if permitted by the control operator",
-      "Only family members"
+    "id": "T1B03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "Which frequency is in the 6-meter amateur band?",
+    "choices": [
+      "49.00 MHz",
+      "52.525 MHz",
+      "28.50 MHz",
+      "222.15 MHz"
     ],
-    answer: "Anyone, if permitted by the control operator"
+    "answer": "52.525 MHz",
+    "answerLetter": "B",
+    "reference": "[97.301(a)]",
+    "explanation": ""
   },
   {
-    id: 15,
-    exam: "Technician",
-    section: "T1E",
-    question: "Who is responsible for proper operation of an amateur station?",
-    choices: [
-      "The equipment manufacturer",
-      "The control operator",
-      "The local repeater trustee",
-      "The FCC examiner"
+    "id": "T1B04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "Which amateur band includes 146.52 MHz?",
+    "choices": [
+      "6 meters",
+      "20 meters",
+      "70 centimeters",
+      "2 meters"
     ],
-    answer: "The control operator"
-  },  
-  {
-    id: 16,
-    exam: "Technician",
-    section: "T1F",
-    question: "When may an amateur station transmit without identifying?",
-    choices: [
-      "During brief tests less than 5 seconds",
-      "Never, except as specifically authorized by FCC rules",
-      "Only during contests",
-      "Only on repeater frequencies"
-    ],
-    answer: "Never, except as specifically authorized by FCC rules"
+    "answer": "2 meters",
+    "answerLetter": "D",
+    "reference": "[97.301(a)]",
+    "explanation": ""
   },
   {
-    id: 17,
-    exam: "Technician",
-    section: "T2A",
-    question: "What is the national calling frequency for FM simplex in the 2 meter band?",
-    choices: [
-      "144.000 MHz",
+    "id": "T1B05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "Which of the following bands include frequencies where Technicians are authorized to use digital modes such as FT8?",
+    "choices": [
+      "10 meters",
+      "6 meters",
+      "2 meters",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "[97.301, 97.305]",
+    "explanation": ""
+  },
+  {
+    "id": "T1B06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "On which HF bands does a Technician class operator have phone privileges?",
+    "choices": [
+      "None",
+      "10-meter band only",
+      "80-meter, 40-meter, 15-meter, and 10-meter bands",
+      "30-meter band only"
+    ],
+    "answer": "10-meter band only",
+    "answerLetter": "B",
+    "reference": "[97.301(e), 97.305]",
+    "explanation": ""
+  },
+  {
+    "id": "T1B07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "Which of the following VHF/UHF band segments are limited to CW only?",
+    "choices": [
+      "50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz",
+      "219 MHz to 220 MHz and 420.0 MHz to 420.1 MHz",
+      "902.0 MHz to 902.1 MHz",
+      "All these choices are correct"
+    ],
+    "answer": "50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz",
+    "answerLetter": "A",
+    "reference": "[97.305(a), (c)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1B08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "How are US amateurs restricted in segments of bands where the Amateur Radio Service is secondary?",
+    "choices": [
+      "U.S. amateurs may find non-amateur stations in those segments, and must avoid interfering with them",
+      "U.S. amateurs must give foreign amateur stations priority in those segments",
+      "International communications are not permitted in those segments",
+      "Digital transmissions are not permitted in those segments"
+    ],
+    "answer": "U.S. amateurs may find non-amateur stations in those segments, and must avoid interfering with them",
+    "answerLetter": "A",
+    "reference": "[97.303]",
+    "explanation": ""
+  },
+  {
+    "id": "T1B09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "Why should you not set your transmit frequency to be exactly at the edge of an amateur band or sub-band?",
+    "choices": [
+      "To allow for calibration error in the transmitter frequency display",
+      "So that modulation sidebands do not extend beyond the band edge",
+      "To allow for transmitter frequency drift",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "[97.101(a), 97.301(a-e)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1B10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "Where may SSB phone be used in amateur bands above 50 MHz?",
+    "choices": [
+      "Only in sub-bands allocated to General class or higher licensees",
+      "Only on repeaters",
+      "In at least some segment of all these bands",
+      "On any band if the power is limited to 25 watts"
+    ],
+    "answer": "In at least some segment of all these bands",
+    "answerLetter": "C",
+    "reference": "[97.305(c)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1B11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "What is the maximum peak envelope power output for Technician class operators in their HF band segments?",
+    "choices": [
+      "200 watts",
+      "100 watts",
+      "50 watts",
+      "10 watts"
+    ],
+    "answer": "200 watts",
+    "answerLetter": "A",
+    "reference": "[97.313]",
+    "explanation": ""
+  },
+  {
+    "id": "T1B12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1B",
+    "question": "Except for some specific restrictions, what is the maximum peak envelope power output for Technician class operators using frequencies above 30 MHz?",
+    "choices": [
+      "50 watts",
+      "100 watts",
+      "500 watts",
+      "1500 watts"
+    ],
+    "answer": "1500 watts",
+    "answerLetter": "D",
+    "reference": "[97.313(b)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1C01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "For which classes of amateur radio licenses does the FCC currently issue new licenses?",
+    "choices": [
+      "Novice, Technician, General, Amateur Extra",
+      "Technician, Technician Plus, General, Amateur Extra",
+      "Novice, Technician Plus, General, Advanced",
+      "Technician, General, Amateur Extra"
+    ],
+    "answer": "Technician, General, Amateur Extra",
+    "answerLetter": "D",
+    "reference": "[97.9(a), 97.17(a)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1C02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "Who may select a desired call sign under the vanity call sign rules?",
+    "choices": [
+      "Only a licensed amateur with a General or Amateur Extra Class license",
+      "Only a licensed amateur with an Amateur Extra Class license",
+      "Only a licensed amateur who has been licensed continuously for more than 10 years",
+      "Any licensed amateur"
+    ],
+    "answer": "Any licensed amateur",
+    "answerLetter": "D",
+    "reference": "[97.19]",
+    "explanation": ""
+  },
+  {
+    "id": "T1C03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "What types of international communications are FCC-licensed amateur radio stations permitted to make?",
+    "choices": [
+      "Communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character",
+      "Communications incidental to conducting business or remarks of a personal nature",
+      "Only communications incidental to contest exchanges; all other communications are prohibited",
+      "Any communications that would be permitted by an international broadcast station"
+    ],
+    "answer": "Communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character",
+    "answerLetter": "A",
+    "reference": "[97.117]",
+    "explanation": ""
+  },
+  {
+    "id": "T1C04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "What may happen if the FCC is unable to reach you by email?",
+    "choices": [
+      "Fine and suspension of operator license",
+      "Revocation of the station license or suspension of the operator license",
+      "Revocation of access to the license record in the FCC system",
+      "Nothing; there is no such requirement"
+    ],
+    "answer": "Revocation of the station license or suspension of the operator license",
+    "answerLetter": "B",
+    "reference": "[97.23]",
+    "explanation": ""
+  },
+  {
+    "id": "T1C05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "Which of the following is a valid Group D call sign format for Technician class?",
+    "choices": [
+      "KF1XXX",
+      "KA1X",
+      "W1XX",
+      "All these choices are correct"
+    ],
+    "answer": "KF1XXX",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T1C06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "Which of the following statements is true about using your amateur radio license when operating aboard a vessel or craft in international waters?",
+    "choices": [
+      "Amateur operation is prohibited in international waters",
+      "You may only operate during maritime emergencies",
+      "You need special FCC authorization for maritime mobile operation",
+      "You may operate from a US-documented vessel with the master's permission"
+    ],
+    "answer": "You may operate from a US-documented vessel with the master's permission",
+    "answerLetter": "D",
+    "reference": "[97.5(a)(2), 97.11(a)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1C07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "How long before the expiration date may an amateur radio license renewal be requested?",
+    "choices": [
+      "30 days",
+      "90 days",
+      "6 months",
+      "1 year"
+    ],
+    "answer": "90 days",
+    "answerLetter": "B",
+    "reference": "[97.21, 1.949]",
+    "explanation": ""
+  },
+  {
+    "id": "T1C08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "What is the normal term for an FCC-issued amateur radio license?",
+    "choices": [
+      "Five years",
+      "Eight years",
+      "Ten years",
+      "Life"
+    ],
+    "answer": "Ten years",
+    "answerLetter": "C",
+    "reference": "[97.25]",
+    "explanation": ""
+  },
+  {
+    "id": "T1C09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "What is the grace period for renewal if an amateur license expires?",
+    "choices": [
+      "Two years",
+      "Three years",
+      "Five years",
+      "Ten years"
+    ],
+    "answer": "Two years",
+    "answerLetter": "A",
+    "reference": "[97.21(a)(b)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1C10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "How soon after passing the examination for your first amateur radio license may you transmit on the amateur radio bands?",
+    "choices": [
+      "Immediately on receiving your Certificate of Successful Completion of Examination (CSCE)",
+      "As soon as your operator/station license grant appears on the ARRL website",
+      "As soon as your operator/station license grant appears in the FCC’s license database",
+      "As soon as you receive your license in the mail from the FCC"
+    ],
+    "answer": "As soon as your operator/station license grant appears in the FCC’s license database",
+    "answerLetter": "C",
+    "reference": "[97.5a]",
+    "explanation": ""
+  },
+  {
+    "id": "T1C11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1C",
+    "question": "If your license has expired and is still within the allowable grace period, may you continue to transmit on the amateur radio bands?",
+    "choices": [
+      "Yes, for up to two years",
+      "Yes, as soon as you apply for renewal",
+      "Yes, for up to one year",
+      "No, you must wait until the license has been renewed"
+    ],
+    "answer": "No, you must wait until the license has been renewed",
+    "answerLetter": "D",
+    "reference": "[97.21(b)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "With which countries are FCC-licensed amateur radio stations prohibited from exchanging communications?",
+    "choices": [
+      "Any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications",
+      "Any country whose administration has notified the American Radio Relay League (ARRL) that it objects to such communications",
+      "Any country banned from such communications by the International Amateur Radio Union (IARU)",
+      "Any country banned from making such communications by the American Radio Relay League (ARRL)"
+    ],
+    "answer": "Any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications",
+    "answerLetter": "A",
+    "reference": "[97.111(a)(1)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "Under which of the following circumstances are one-way transmissions by an amateur station prohibited?",
+    "choices": [
+      "Announcements of upcoming ham radio operating events",
+      "Broadcasting",
+      "International Morse Code Practice",
+      "Telecommand or transmissions of telemetry"
+    ],
+    "answer": "Broadcasting",
+    "answerLetter": "B",
+    "reference": "[97.113(b), 97.111(b)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "When is it permissible to transmit messages encoded to obscure their meaning?",
+    "choices": [
+      "Only when using a remote station during a contest",
+      "Only when transmitting certain approved digital codes",
+      "Only when transmitting control commands to space stations or model craft",
+      "Never"
+    ],
+    "answer": "Only when transmitting control commands to space stations or model craft",
+    "answerLetter": "C",
+    "reference": "[97.211(b), 97.215(b), 97.113(a)(4)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "Under what conditions is an amateur station authorized to transmit music using a phone emission?",
+    "choices": [
+      "When incidental to an authorized retransmission of manned spacecraft communications",
+      "When the music produces no spurious emissions",
+      "When transmissions are limited to less than three minutes per hour",
+      "When the music is transmitted above 1280 MHz"
+    ],
+    "answer": "When incidental to an authorized retransmission of manned spacecraft communications",
+    "answerLetter": "A",
+    "reference": "[97.113(a)(4), 97.113(c)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "When may amateur radio operators use their stations to notify other amateurs of the availability of equipment for sale or trade?",
+    "choices": [
+      "Never",
+      "When the equipment is not the personal property of either the station licensee, or the control operator, or their close relatives",
+      "When no profit is made on the sale",
+      "When selling amateur radio equipment and not on a regular basis"
+    ],
+    "answer": "When selling amateur radio equipment and not on a regular basis",
+    "answerLetter": "D",
+    "reference": "[97.113(a)(3)(ii)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "What, if any, are the restrictions concerning transmission of language that may be considered indecent or obscene?",
+    "choices": [
+      "The FCC maintains a list of words that are not permitted to be used on amateur frequencies",
+      "Any such language is prohibited",
+      "The International Telecommunications Union (ITU) maintains a list of words that are not permitted to be used on amateur frequencies",
+      "There is no such prohibition"
+    ],
+    "answer": "Any such language is prohibited",
+    "answerLetter": "B",
+    "reference": "[97.113(a)(4)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "Which of the following is an example of an auxiliary station?",
+    "choices": [
+      "A station sending one-way transmissions between a remote repeater receiver and the main repeater transmitter",
+      "A backup radio for emergency use in case the main station radio fails",
+      "A station used in the Military Auxiliary Radio System for linking government and amateur stations in a digital network",
+      "A second station utilized in multi-operator contest stations"
+    ],
+    "answer": "A station sending one-way transmissions between a remote repeater receiver and the main repeater transmitter",
+    "answerLetter": "A",
+    "reference": "[97.113(d), 97.201(e)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "In which of the following circumstances may the control operator of an amateur station receive compensation for operating that station?",
+    "choices": [
+      "When the communication is related to the sale of amateur equipment by the control operator's employer",
+      "When the communication is a part of classroom instruction at an educational institution",
+      "When the communication is made to obtain emergency information for a local broadcast station",
+      "All these choices are correct"
+    ],
+    "answer": "When the communication is a part of classroom instruction at an educational institution",
+    "answerLetter": "B",
+    "reference": "[97.113(a)(3)(iii)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "When may amateur stations transmit information in support of broadcasting, program production, or news gathering, assuming no other means is available?",
+    "choices": [
+      "When such communications are directly related to the immediate safety of human life or protection of property",
+      "When broadcasting communications to or from the space shuttle",
+      "Where non-commercial programming is gathered and supplied exclusively to the National Public Radio network",
+      "Never"
+    ],
+    "answer": "When such communications are directly related to the immediate safety of human life or protection of property",
+    "answerLetter": "A",
+    "reference": "[97.113(5)(b)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "How does the FCC define broadcasting for the Amateur Radio Service?",
+    "choices": [
+      "Two-way transmissions by amateur stations",
+      "Any transmission made by the licensed station",
+      "Transmission of messages directed only to amateur operators",
+      "Transmissions intended for reception by the general public"
+    ],
+    "answer": "Transmissions intended for reception by the general public",
+    "answerLetter": "D",
+    "reference": "[97.3(a)(10)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "When may an amateur station transmit without identifying on the air?",
+    "choices": [
+      "When the transmissions are of a brief nature to make station adjustments",
+      "When the transmissions are unmodulated",
+      "When the transmitted power level is below 0.1 watt",
+      "When transmitting signals to control model craft"
+    ],
+    "answer": "When transmitting signals to control model craft",
+    "answerLetter": "D",
+    "reference": "[97.215]",
+    "explanation": ""
+  },
+  {
+    "id": "T1D12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1D",
+    "question": "Which of the following is required when making on-the-air test transmissions?",
+    "choices": [
+      "Identify the transmitting station",
+      "Conduct tests only between 10 p.m. and 6 a.m. local time",
+      "Notify the FCC of the transmissions",
+      "All these choices are correct"
+    ],
+    "answer": "Identify the transmitting station",
+    "answerLetter": "A",
+    "reference": "[97.119(a)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "When may an amateur station transmit without a control operator?",
+    "choices": [
+      "When using automatic control, such as in the case of a repeater",
+      "When the station licensee is away and another licensed amateur is using the station",
+      "When the transmitting station is an auxiliary station",
+      "Never"
+    ],
+    "answer": "Never",
+    "answerLetter": "D",
+    "reference": "[97.7(a)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "Who may be the control operator of a station communicating through an amateur satellite or space station?",
+    "choices": [
+      "Only an Amateur Extra Class operator",
+      "A General class or higher licensee with a satellite operator certification",
+      "Only an Amateur Extra Class operator who is also an AMSAT member",
+      "Any amateur allowed to transmit on the satellite uplink frequency"
+    ],
+    "answer": "Any amateur allowed to transmit on the satellite uplink frequency",
+    "answerLetter": "D",
+    "reference": "[97.301, 97.207(c)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "Who must designate the station control operator?",
+    "choices": [
+      "The station licensee",
+      "The FCC",
+      "The frequency coordinator",
+      "Any licensed operator"
+    ],
+    "answer": "The station licensee",
+    "answerLetter": "A",
+    "reference": "[97.103(b)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "What determines the transmitting frequency privileges of an amateur station?",
+    "choices": [
+      "The frequency authorized by the frequency coordinator",
+      "The frequencies printed on the license grant",
+      "The highest class of operator license held by anyone on the premises",
+      "The class of operator license held by the control operator"
+    ],
+    "answer": "The class of operator license held by the control operator",
+    "answerLetter": "D",
+    "reference": "[97.103(b)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "What is an amateur station’s control point?",
+    "choices": [
+      "The location of the station’s transmitting antenna",
+      "The location of the station’s transmitting apparatus",
+      "The location at which the control operator function is performed",
+      "The mailing address of the station licensee"
+    ],
+    "answer": "The location at which the control operator function is performed",
+    "answerLetter": "C",
+    "reference": "[97.3(a)(14)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "When, other than during an emergency, may a Technician class licensee be the control operator of a station operating in an Amateur Extra Class band segment?",
+    "choices": [
+      "At no time",
+      "When designated as the control operator by an Amateur Extra Class licensee",
+      "As part of a multi-operator contest team",
+      "When using a club station whose trustee holds an Amateur Extra Class license"
+    ],
+    "answer": "At no time",
+    "answerLetter": "A",
+    "reference": "[97.301]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "When the control operator is not the station licensee, who is responsible for the proper operation of the station?",
+    "choices": [
+      "All licensed amateurs who are present at the operation",
+      "Only the station licensee",
+      "Only the control operator",
+      "The control operator and the station licensee"
+    ],
+    "answer": "The control operator and the station licensee",
+    "answerLetter": "D",
+    "reference": "[97.103(a)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "Which of the following is an example of automatic control?",
+    "choices": [
+      "Repeater operation",
+      "Controlling a station over the internet",
+      "Using a computer or other device to send CW automatically",
+      "Using a computer or other device to identify automatically"
+    ],
+    "answer": "Repeater operation",
+    "answerLetter": "A",
+    "reference": "[97.3(a)(6), 97.205(d)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "Which amateur stations may be remotely controlled?",
+    "choices": [
+      "Only repeater stations",
+      "Only automatically controlled stations",
+      "Only digital stations",
+      "Any station"
+    ],
+    "answer": "Any station",
+    "answerLetter": "D",
+    "reference": "[97.109(c)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "Which of the following is an example of remote control as defined in Part 97?",
+    "choices": [
+      "A software defined radio (SDR)",
+      "Operating the station over the internet",
+      "Controlling a model aircraft, boat, or car by amateur radio",
+      "Earth-Moon-Earth (EME) communication"
+    ],
+    "answer": "Operating the station over the internet",
+    "answerLetter": "B",
+    "reference": "[97.3(a)(39)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1E11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1E",
+    "question": "What is a control operator as defined in Part 97?",
+    "choices": [
+      "The person speaking or otherwise communicating messages over an amateur station",
+      "The person who is the licensee of an amateur station",
+      "An amateur operator identified in the FCC database as responsible for transmissions and FCC rules compliance at a station license location",
+      "An amateur operator designated by the licensee of a station to be responsible for transmissions and FCC rules compliance at that station"
+    ],
+    "answer": "An amateur operator designated by the licensee of a station to be responsible for transmissions and FCC rules compliance at that station",
+    "answerLetter": "D",
+    "reference": "[97.3(a)(13)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "When must the station licensee make the station and the station records available for inspection?",
+    "choices": [
+      "At any time ten days after notification by the FCC of such an inspection",
+      "At any time upon request by an FCC representative",
+      "At any time after a written notification by the FCC of such inspection",
+      "Only when presented with a valid warrant by an FCC official or government agent"
+    ],
+    "answer": "At any time upon request by an FCC representative",
+    "answerLetter": "B",
+    "reference": "[97.103(c)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "How often must you identify with your FCC-assigned call sign when using tactical call signs such as “Race Headquarters”?",
+    "choices": [
+      "Never, the tactical call is sufficient",
+      "Once every hour",
+      "At least every 10 minutes during and at the end of a communication",
+      "At the end of every transmission"
+    ],
+    "answer": "At least every 10 minutes during and at the end of a communication",
+    "answerLetter": "C",
+    "reference": "[97.119(a)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "When are you required to transmit your assigned call sign?",
+    "choices": [
+      "At the beginning of each contact, and every 10 minutes thereafter",
+      "At least once during each transmission",
+      "At least every 15 minutes during and at the end of a communication",
+      "At least every 10 minutes during and at the end of a communication"
+    ],
+    "answer": "At least every 10 minutes during and at the end of a communication",
+    "answerLetter": "D",
+    "reference": "[97.119(a)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "What language must you use for identification when using a phone emission?",
+    "choices": [
+      "Any language recognized by the United Nations",
+      "Any language recognized by the ITU",
+      "English",
+      "English, French, or Spanish"
+    ],
+    "answer": "English",
+    "answerLetter": "C",
+    "reference": "[97.119(b)(2)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "What method of call sign identification is required for a station transmitting phone signals?",
+    "choices": [
+      "Send the call sign followed by the indicator RPT",
+      "Send the call sign using a CW or phone emission",
+      "Send the call sign followed by the indicator R",
+      "Send the call sign using only a phone emission"
+    ],
+    "answer": "Send the call sign using a CW or phone emission",
+    "answerLetter": "B",
+    "reference": "[97.119(b)(2)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "Which of the following self-assigned indicators are acceptable when using a phone transmission?",
+    "choices": [
+      "KL7CC stroke W3",
+      "KL7CC slant W3",
+      "KL7CC slash W3",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "[97.119(c)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "Which of the following restrictions apply when a non-licensed person speaks to a foreign amateur radio station via a station under the control of an FCC-licensed amateur radio operator?",
+    "choices": [
+      "The person must be a U.S. citizen",
+      "The foreign station must be in a country with which the U.S. has a third-party agreement",
+      "The licensed control operator must do the station identification",
+      "All these choices are correct"
+    ],
+    "answer": "The foreign station must be in a country with which the U.S. has a third-party agreement",
+    "answerLetter": "B",
+    "reference": "[97.115(a)(2)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "What is the definition of third-party communications?",
+    "choices": [
+      "A message from a control operator to another amateur station control operator on behalf of another person",
+      "Amateur radio communications where three stations are in communications with one another",
+      "Operation when the transmitting equipment is licensed to a person other than the control operator",
+      "Temporary authorization for an unlicensed person to transmit on the amateur bands for technical experiments"
+    ],
+    "answer": "A message from a control operator to another amateur station control operator on behalf of another person",
+    "answerLetter": "A",
+    "reference": "[97.3(a)(47)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "What type of amateur station simultaneously retransmits the signal of another amateur station on a different channel or channels?",
+    "choices": [
+      "Beacon station",
+      "Remote control station",
+      "Repeater station",
+      "Message forwarding station"
+    ],
+    "answer": "Repeater station",
+    "answerLetter": "C",
+    "reference": "[97.3(a)(40)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "Who is accountable if a repeater inadvertently retransmits communications that violate the FCC rules?",
+    "choices": [
+      "The control operator of the originating station",
+      "The control operator of the repeater",
+      "The owner of the repeater",
+      "Both the originating station and the repeater owner"
+    ],
+    "answer": "The control operator of the originating station",
+    "answerLetter": "A",
+    "reference": "[97.205(g)]",
+    "explanation": ""
+  },
+  {
+    "id": "T1F11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T1F",
+    "question": "Which of the following is a requirement for the issuance of a club station license grant?",
+    "choices": [
+      "The trustee must have an Amateur Extra Class operator license grant",
+      "The club must have at least four members",
+      "The club must be registered with the American Radio Relay League (ARRL)",
+      "All these choices are correct"
+    ],
+    "answer": "The club must have at least four members",
+    "answerLetter": "B",
+    "reference": "[97.5(b)(2)]",
+    "explanation": ""
+  },
+  {
+    "id": "T2A01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "What is a common repeater frequency offset in the 2-meter band?",
+    "choices": [
+      "Plus or minus 5 MHz",
+      "Plus or minus 600 kHz",
+      "Plus or minus 500 kHz",
+      "Plus or minus 1 MHz"
+    ],
+    "answer": "Plus or minus 600 kHz",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2A02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "What is the national calling frequency for FM simplex operations in the 2-meter band?",
+    "choices": [
       "146.520 MHz",
-      "147.000 MHz",
-      "145.500 MHz"
+      "145.000 MHz",
+      "432.100 MHz",
+      "446.000 MHz"
     ],
-    answer: "146.520 MHz"
+    "answer": "146.520 MHz",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 18,
-    exam: "Technician",
-    section: "T2A",
-    question: "What is a common repeater input/output offset in the 2 meter band?",
-    choices: [
-      "600 kHz",
-      "6 MHz",
-      "60 kHz",
-      "1.2 MHz"
+    "id": "T2A03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "What is a common repeater frequency offset in the 70-centimeter band?",
+    "choices": [
+      "Plus or minus 5 MHz",
+      "Plus or minus 600 kHz",
+      "Plus or minus 500 kHz",
+      "Plus or minus 1 MHz"
     ],
-    answer: "600 kHz"
+    "answer": "Plus or minus 5 MHz",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 19,
-    exam: "Technician",
-    section: "T2A",
-    question: "What is the national calling frequency for FM simplex in the 70 cm band?",
-    choices: [
-      "446.000 MHz",
-      "440.000 MHz",
-      "445.500 MHz",
-      "432.100 MHz"
+    "id": "T2A04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "What is an appropriate way to call another station on a repeater if you know the other station's call sign?",
+    "choices": [
+      "Say \"break, break,\" then the other station’s call sign, followed by your call sign",
+      "Say the station's call sign, then identify with your call sign",
+      "Say \"CQ\" three times, then the other station's call sign, followed by your call sign",
+      "Wait for the station to call CQ, then answer with your call sign"
     ],
-    answer: "446.000 MHz"
+    "answer": "Say the station's call sign, then identify with your call sign",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 20,
-    exam: "Technician",
-    section: "T2B",
-    question: "What is the term used to describe an amateur station that automatically retransmits another station's signal?",
-    choices: [
-      "Beacon",
-      "Repeater",
-      "Transverter",
-      "Multiplexer"
+    "id": "T2A05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "How should you respond to a station calling CQ?",
+    "choices": [
+      "Transmit \"CQ\" followed by the other station’s call sign",
+      "Transmit your call sign followed by the other station’s call sign",
+      "Transmit the other station’s call sign followed by your call sign",
+      "Transmit a signal report followed by your call sign"
     ],
-    answer: "Repeater"
+    "answer": "Transmit the other station’s call sign followed by your call sign",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 21,
-    exam: "Technician",
-    section: "T2B",
-    question: "What is a courtesy tone on a repeater?",
-    choices: [
-      "A tone that indicates the repeater is about to shut down",
-      "A tone that indicates the transmitter has unkeyed and the channel is available",
-      "A weather alert tone",
-      "A tone required for emergency traffic"
+    "id": "T2A06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "What is an effective way to seek a call from any phone station when not using a repeater?",
+    "choices": [
+      "Sign your call sign once, followed by the words “listening for a call;” if there is no answer, change the frequency and repeat",
+      "Say “QTC,” followed by “this is” and your call sign; if there is no answer, change the frequency and repeat",
+      "Transmit an unmodulated carrier for approximately 10 seconds, followed by “this is” and your call sign, and pause to listen; repeat as necessary",
+      "Repeat “CQ” a few times, followed by “this is,” and your call sign, then pause to listen; repeat as necessary"
     ],
-    answer: "A tone that indicates the transmitter has unkeyed and the channel is available"
+    "answer": "Repeat “CQ” a few times, followed by “this is,” and your call sign, then pause to listen; repeat as necessary",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 22,
-    exam: "Technician",
-    section: "T2B",
-    question: "What is meant by the term simplex operation?",
-    choices: [
-      "Using two repeaters at once",
-      "Transmitting and receiving on the same frequency",
-      "Using only digital signals",
-      "Operating through satellites"
+    "id": "T2A07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "What does the term \"repeater offset\" mean?",
+    "choices": [
+      "The difference between a repeater’s transmit and receive frequencies",
+      "The repeater has a time delay to prevent interference",
+      "The approximately half-second delay to allow for the “squelch tail” to be removed",
+      "The fee charged by the repeater owner or club to provide for maintenance"
     ],
-    answer: "Transmitting and receiving on the same frequency"
+    "answer": "The difference between a repeater’s transmit and receive frequencies",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 23,
-    exam: "Technician",
-    section: "T2C",
-    question: "What should you do if you hear a station in distress?",
-    choices: [
-      "Change frequency immediately",
-      "Continue your conversation",
-      "Stop transmitting and listen, offering assistance if possible",
-      "Tune up your transmitter"
+    "id": "T2A08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "What is the meaning of the procedural signal “CQ”?",
+    "choices": [
+      "A shortened form of the term “Contest QSO”",
+      "“Communication Quality,” used to indicate transmitted audio clarity",
+      "Only the called station should transmit",
+      "Calling any station"
     ],
-    answer: "Stop transmitting and listen, offering assistance if possible"
+    "answer": "Calling any station",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 24,
-    exam: "Technician",
-    section: "T2C",
-    question: "Which word is used to initiate a distress call?",
-    choices: [
-      "CQ",
-      "Break",
-      "Mayday",
-      "Over"
+    "id": "T2A09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "Which of the following is a customary way to indicate a station is listening on a repeater and looking for a contact?",
+    "choices": [
+      "“CQ CQ” followed by the repeater’s call sign",
+      "The station’s call sign followed by the word “listening”",
+      "The repeater’s call sign followed by the station’s call sign",
+      "“QSY” followed by your call sign"
     ],
-    answer: "Mayday"
+    "answer": "The station’s call sign followed by the word “listening”",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 25,
-    exam: "Technician",
-    section: "T2C",
-    question: "What is the FCC declaration of a RACES station?",
-    choices: [
-      "Radio Amateur Civil Emergency Service",
-      "Remote Amateur Communications Emergency System",
-      "Regional Auxiliary Civil Emergency Service",
-      "Radio Access Community Emergency Service"
+    "id": "T2A10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "What is a band plan, beyond the privileges established by the FCC?",
+    "choices": [
+      "A voluntary guideline for using different modes or activities within an amateur band",
+      "A list of operating schedules",
+      "A list of available net frequencies",
+      "A plan devised by a club to indicate frequency band usage"
     ],
-    answer: "Radio Amateur Civil Emergency Service"
+    "answer": "A voluntary guideline for using different modes or activities within an amateur band",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 26,
-    exam: "Technician",
-    section: "T3A",
-    question: "What should you do if another operator reports that your station's signal is garbled?",
-    choices: [
-      "Increase power immediately",
-      "Check your microphone, audio level, or equipment settings",
-      "Ignore the report",
-      "Change call signs"
+    "id": "T2A11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2A",
+    "question": "What term describes an amateur station that is transmitting and receiving on the same frequency?",
+    "choices": [
+      "Full duplex",
+      "Diplex",
+      "Simplex",
+      "Multiplex"
     ],
-    answer: "Check your microphone, audio level, or equipment settings"
+    "answer": "Simplex",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 27,
-    exam: "Technician",
-    section: "T3A",
-    question: "What does a strong but distorted signal usually indicate?",
-    choices: [
-      "Overmodulation or audio problems",
-      "Low battery voltage only",
-      "Excellent signal quality",
-      "Satellite delay"
+    "id": "T2B01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "What is the purpose of the reverse function on a VHF/UHF transceiver?",
+    "choices": [
+      "To reduce power output",
+      "To increase power output",
+      "To listen on a repeater’s input frequency",
+      "To listen on a repeater’s output frequency"
     ],
-    answer: "Overmodulation or audio problems"
+    "answer": "To listen on a repeater’s input frequency",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 28,
-    exam: "Technician",
-    section: "T3B",
-    question: "What is the term for rapid fluttering variations of signal strength?",
-    choices: [
-      "Drift",
-      "Fading",
-      "Deviation",
-      "Offset"
+    "id": "T2B02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "What term describes the use of a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver?",
+    "choices": [
+      "Carrier squelch",
+      "Tone burst",
+      "DTMF",
+      "CTCSS"
     ],
-    answer: "Fading"
+    "answer": "CTCSS",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 29,
-    exam: "Technician",
-    section: "T3B",
-    question: "What is meant by line of sight propagation?",
-    choices: [
-      "Signals travel only underground",
-      "Signals travel directly between antennas with minimal obstruction",
-      "Signals require satellites",
-      "Signals reflect only from clouds"
+    "id": "T2B03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "Which of the following describes a linked repeater network?",
+    "choices": [
+      "A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network",
+      "A single repeater with more than one receiver",
+      "Multiple repeaters with the same control operator",
+      "A system of repeaters linked by APRS"
     ],
-    answer: "Signals travel directly between antennas with minimal obstruction"
+    "answer": "A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 30,
-    exam: "Technician",
-    section: "T3C",
-    question: "What is the approximate velocity of a radio wave through free space?",
-    choices: [
-      "300 kilometers per second",
-      "300,000 kilometers per second",
-      "30,000 kilometers per second",
-      "3,000 kilometers per second"
+    "id": "T2B04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "Which of the following could be the reason you are unable to access a repeater whose output you can hear?",
+    "choices": [
+      "Improper transceiver offset",
+      "You are using the wrong CTCSS tone",
+      "You are using the wrong DCS code",
+      "All these choices are correct"
     ],
-    answer: "300,000 kilometers per second"
-  },  
-  {
-    id: 31,
-    exam: "Technician",
-    section: "T3C",
-    question: "What does the term wavelength describe?",
-    choices: [
-      "The height of an antenna",
-      "The distance a radio wave travels during one complete cycle",
-      "The output power of a transmitter",
-      "The width of a modulation signal"
-    ],
-    answer: "The distance a radio wave travels during one complete cycle"
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 32,
-    exam: "Technician",
-    section: "T4A",
-    question: "What is the function of a power supply in a radio station?",
-    choices: [
-      "To amplify received signals",
-      "To convert AC mains power to the DC voltage required by equipment",
-      "To tune the antenna",
-      "To generate RF directly"
+    "id": "T2B05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "Which of the following would cause your FM transmission audio to drop out on voice peaks?",
+    "choices": [
+      "Your repeater offset is inverted",
+      "Your FM deviation is too low",
+      "You are talking too loudly",
+      "Your transmit power is too high"
     ],
-    answer: "To convert AC mains power to the DC voltage required by equipment"
+    "answer": "You are talking too loudly",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 33,
-    exam: "Technician",
-    section: "T4A",
-    question: "What device is commonly used to connect a handheld transceiver to an external antenna?",
-    choices: [
-      "Dummy load",
-      "Adapter or coax jumper",
-      "Speaker mic",
-      "Ferrite bead"
+    "id": "T2B06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "What type of signaling to a repeater uses two simultaneous audio tones?",
+    "choices": [
+      "DTMF",
+      "CTCSS",
+      "GMRS",
+      "D-STAR"
     ],
-    answer: "Adapter or coax jumper"
+    "answer": "DTMF",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 34,
-    exam: "Technician",
-    section: "T4B",
-    question: "What does the squelch control do on an FM receiver?",
-    choices: [
-      "Adjust transmit power",
-      "Mutes receiver audio when signals are below a threshold",
-      "Changes modulation type",
-      "Adjusts antenna resonance"
+    "id": "T2B07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "How can you join a digital repeater’s “talkgroup”?",
+    "choices": [
+      "Register with the local Frequency Coordinator",
+      "Register with the digital repeater control operator",
+      "Program your radio with the group’s ID or code",
+      "Program your radio with the DTMF tone used by the talkgroup"
     ],
-    answer: "Mutes receiver audio when signals are below a threshold"
+    "answer": "Program your radio with the group’s ID or code",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 35,
-    exam: "Technician",
-    section: "T4B",
-    question: "What is the purpose of the volume control on a receiver?",
-    choices: [
-      "Adjust received audio level",
-      "Adjust RF gain only",
-      "Set repeater offset",
-      "Change frequency step size"
+    "id": "T2B08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "Which of the following applies when two stations transmitting on the same frequency interfere with each other?",
+    "choices": [
+      "The stations should negotiate continued use of the frequency",
+      "Both stations should choose another frequency to avoid conflict",
+      "Whichever station was on the frequency first has preemptive rights to the frequency",
+      "Use subaudible tones so both stations can share the frequency"
     ],
-    answer: "Adjust received audio level"
+    "answer": "The stations should negotiate continued use of the frequency",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 36,
-    exam: "Technician",
-    section: "T4C",
-    question: "What does an S meter measure?",
-    choices: [
-      "Standing wave ratio",
-      "Signal strength",
-      "Battery voltage",
-      "Transmit deviation"
+    "id": "T2B09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "Why are simplex channels designated in the VHF/UHF band plans?",
+    "choices": [
+      "So stations within range of each other can communicate without tying up a repeater",
+      "For contest operation",
+      "For working DX only",
+      "So stations with simple transmitters can access the repeater without automated offset"
     ],
-    answer: "Signal strength"
+    "answer": "So stations within range of each other can communicate without tying up a repeater",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 37,
-    exam: "Technician",
-    section: "T4C",
-    question: "What is indicated when a battery voltage meter reads low?",
-    choices: [
-      "The antenna is resonant",
-      "The power source may need charging or replacement",
-      "The SWR is too high",
-      "The repeater is offline"
+    "id": "T2B10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "Which Q signal indicates that you are receiving interference from other stations?",
+    "choices": [
+      "QRM",
+      "QRN",
+      "QTH",
+      "QSB"
     ],
-    answer: "The power source may need charging or replacement"
+    "answer": "QRM",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 38,
-    exam: "Technician",
-    section: "T5A",
-    question: "What is the unit of electrical potential difference?",
-    choices: [
-      "Ampere",
+    "id": "T2B11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "Which Q signal indicates that you are changing frequency?",
+    "choices": [
+      "QRU",
+      "QSY",
+      "QSL",
+      "QRZ"
+    ],
+    "answer": "QSY",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2B12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "What is the digital color code used on DMR repeater systems?",
+    "choices": [
+      "An access code which must be programmed into a DMR transmitter to access a specific repeater",
+      "A code which automatically programs the repeater offset to a frequency chosen by the user",
+      "A code which identifies the specific CODEC being used so that the repeater can properly decode the audio",
+      "A code transmitted by the repeater to indicate health and status of the equipment"
+    ],
+    "answer": "An access code which must be programmed into a DMR transmitter to access a specific repeater",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2B13",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "What is the purpose of a squelch function?",
+    "choices": [
+      "Reduce a CW transmitter's key clicks",
+      "Mute the receiver audio when a signal is not present",
+      "Eliminate parasitic oscillations in an RF amplifier",
+      "Reduce interference from impulse noise"
+    ],
+    "answer": "Mute the receiver audio when a signal is not present",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2B14",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2B",
+    "question": "Which of the following is a “talkgroup”?",
+    "choices": [
+      "A group of amateur radio operators who share email on a specific amateur radio topic",
+      "An identifier used by DMR to organize radio traffic so that those who want to hear the group aren’t bothered by other radio traffic",
+      "The members of a net organized for amateur radio operators with a specific common interest",
+      "A method of automatically alerting all group members to the frequency where any member is transmitting"
+    ],
+    "answer": "An identifier used by DMR to organize radio traffic so that those who want to hear the group aren’t bothered by other radio traffic",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "When do the FCC Part 97 Amateur Radio Service rules NOT apply to the operation of an amateur station?",
+    "choices": [
+      "When operating under RACES rules",
+      "When operating under FEMA rules",
+      "When operating under ARES rules",
+      "FCC rules always apply"
+    ],
+    "answer": "FCC rules always apply",
+    "answerLetter": "D",
+    "reference": "[97.103(a)]",
+    "explanation": ""
+  },
+  {
+    "id": "T2C02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "Which of the following are typical duties of a Net Control Station?",
+    "choices": [
+      "Choose the regular net meeting time and frequency",
+      "Ensure that all stations checking into the net are properly licensed for operation on the net frequency",
+      "Call the net to order and direct communications between stations checking in",
+      "All these choices are correct"
+    ],
+    "answer": "Call the net to order and direct communications between stations checking in",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "What technique is used to ensure that voice messages containing unusual words are received correctly?",
+    "choices": [
+      "Send the words by voice and Morse code",
+      "Use the Q-code “QSR” to ask the receiving station to repeat the words back",
+      "Spell the words using a standard phonetic alphabet",
+      "All these choices are correct"
+    ],
+    "answer": "Spell the words using a standard phonetic alphabet",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "What is RACES?",
+    "choices": [
+      "An emergency organization combining amateur radio and citizens band operators and frequencies",
+      "An international radio experimentation society",
+      "A radio contest held in a short period, sometimes called a “sprint”",
+      "An FCC Part 97 amateur radio service for civil defense communications during national emergencies"
+    ],
+    "answer": "An FCC Part 97 amateur radio service for civil defense communications during national emergencies",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "What does the term “traffic” refer to in net operation?",
+    "choices": [
+      "Formal messages exchanged by net stations",
+      "The number of stations checking in and out of a net",
+      "Operation by mobile or portable stations",
+      "A count of the number of activations of the net each month"
+    ],
+    "answer": "Formal messages exchanged by net stations",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "What is the Amateur Radio Emergency Service (ARES)?",
+    "choices": [
+      "A group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service",
+      "A group of licensed amateurs who are members of the military and who voluntarily agreed to provide message handling services in the case of an emergency",
+      "A training program that provides licensing courses for those interested in obtaining an amateur license to use during emergencies",
+      "A training program that certifies amateur operators for membership in the Radio Amateur Civil Emergency Service"
+    ],
+    "answer": "A group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "Which of the following is standard practice when you participate in a net?",
+    "choices": [
+      "When first responding to the net control station, transmit your call sign, name, and address as in the FCC database",
+      "Record the time of each of your transmissions",
+      "Unless you are reporting an emergency, transmit only when directed by the net control station",
+      "All these choices are correct"
+    ],
+    "answer": "Unless you are reporting an emergency, transmit only when directed by the net control station",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "Which of the following relays messages using email addresses based on amateur callsigns?",
+    "choices": [
+      "Winlink",
+      "FT8",
+      "PSK31",
+      "AMTOR"
+    ],
+    "answer": "Winlink",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "Are amateur station control operators ever permitted to operate outside the frequency privileges of their license class?",
+    "choices": [
+      "No",
+      "Yes, but only when part of a FEMA emergency plan",
+      "Yes, but only when part of a RACES emergency plan",
+      "Yes, but only in situations involving the immediate safety of human life or protection of property"
+    ],
+    "answer": "Yes, but only in situations involving the immediate safety of human life or protection of property",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "What information is contained in the preamble of a formal traffic message?",
+    "choices": [
+      "The email address of the originating station",
+      "The address of the intended recipient",
+      "The telephone number of the addressee",
+      "Information needed to track the message"
+    ],
+    "answer": "Information needed to track the message",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "What is meant by “check” in a radiogram header?",
+    "choices": [
+      "The number of words or word equivalents in the text portion of the message",
+      "The call sign of the originating station",
+      "A list of stations that have relayed the message",
+      "A box on the message form that indicates that the message was received and/or relayed"
+    ],
+    "answer": "The number of words or word equivalents in the text portion of the message",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T2C12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T2C",
+    "question": "Which of the following requires certification by a civil defense agency?",
+    "choices": [
+      "ARES",
+      "RACES",
+      "MARS",
+      "SKYWARN"
+    ],
+    "answer": "RACES",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "Why do VHF signal strengths sometimes vary greatly when the antenna is moved only a few feet?",
+    "choices": [
+      "The signal path encounters different concentrations of water vapor",
+      "VHF ionospheric propagation is very sensitive to path length",
+      "Multipath propagation cancels or reinforces signals",
+      "The Doppler effect causes slight frequency shifts which result in changes in signal strength"
+    ],
+    "answer": "Multipath propagation cancels or reinforces signals",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "How does vegetation affect UHF and microwave signals?",
+    "choices": [
+      "Causes knife-edge diffraction, distorting voice peaks",
+      "Absorbs signals, leading to poor reception of weak signals",
+      "Amplifies signals, improving reception of weak signals",
+      "Has no effect"
+    ],
+    "answer": "Absorbs signals, leading to poor reception of weak signals",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "What antenna polarization is normally used for long-distance CW and SSB contacts on the VHF and UHF bands?",
+    "choices": [
+      "Right-hand circular",
+      "Left-hand circular",
+      "Horizontal",
+      "Vertical"
+    ],
+    "answer": "Horizontal",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "What is the effect of antenna cross-polarization over a line-of-sight VHF or UHF path?",
+    "choices": [
+      "Modulation sidebands might become inverted",
+      "Received signal strength is reduced",
+      "Signals have an echo effect",
+      "Nothing significant will happen"
+    ],
+    "answer": "Received signal strength is reduced",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "When using a directional antenna, how might your station be able to communicate with a distant repeater if buildings or obstructions are blocking the direct line of sight path?",
+    "choices": [
+      "Change from vertical to horizontal polarization",
+      "Try to find a path that reflects signals to the repeater",
+      "Try the long path",
+      "Increase the antenna SWR"
+    ],
+    "answer": "Try to find a path that reflects signals to the repeater",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "What is the meaning of the term “picket fencing”?",
+    "choices": [
+      "Alternating transmissions during a net operation",
+      "Rapid flutter on mobile signals due to multipath propagation",
+      "A type of ground system used with vertical antennas",
+      "Interference from cable TV in the form of carriers at fixed intervals across the band"
+    ],
+    "answer": "Rapid flutter on mobile signals due to multipath propagation",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "What weather condition might decrease range at microwave frequencies?",
+    "choices": [
+      "High winds",
+      "Low barometric pressure",
+      "Precipitation",
+      "Colder temperatures"
+    ],
+    "answer": "Precipitation",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "What is a likely cause of irregular fading of signals propagated by the ionosphere?",
+    "choices": [
+      "Frequency shift due to Faraday rotation",
+      "Interference from thunderstorms",
+      "Intermodulation distortion",
+      "Random combining of signals arriving via different paths"
+    ],
+    "answer": "Random combining of signals arriving via different paths",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "Which of the following results from the fact that signals propagated by the ionosphere are elliptically polarized?",
+    "choices": [
+      "Digital modes are unusable",
+      "Either vertically or horizontally polarized antennas may be used for transmission or reception",
+      "FM voice is unusable",
+      "Both the transmitting and receiving antennas must be of the same polarization"
+    ],
+    "answer": "Either vertically or horizontally polarized antennas may be used for transmission or reception",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "What effect does multi-path propagation have on data transmissions?",
+    "choices": [
+      "Transmission rates must be increased by a factor equal to the number of separate paths observed",
+      "Transmission rates must be decreased by a factor equal to the number of separate paths observed",
+      "No significant changes will occur if the signals are transmitted using FM",
+      "Error rates are likely to increase"
+    ],
+    "answer": "Error rates are likely to increase",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "Which region of the atmosphere can reflect HF radio waves?",
+    "choices": [
+      "The stratosphere",
+      "The troposphere",
+      "The ionosphere",
+      "The electrosphere"
+    ],
+    "answer": "The ionosphere",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3A12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3A",
+    "question": "What effect does fog or rain have on 10-meter and 6-meter band signals?",
+    "choices": [
+      "Absorption",
+      "Little effect",
+      "Deflection",
+      "Increased range"
+    ],
+    "answer": "Little effect",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "What is the relationship between the electric and magnetic fields of an electromagnetic wave?",
+    "choices": [
+      "They travel at different speeds",
+      "They are in parallel",
+      "They revolve in opposite directions",
+      "They are at right angles"
+    ],
+    "answer": "They are at right angles",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "What property of a radio wave defines its polarization?",
+    "choices": [
+      "The orientation of the electric field",
+      "The orientation of the magnetic field",
+      "The ratio of the energy in the magnetic field to the energy in the electric field",
+      "The ratio of the velocity to the wavelength"
+    ],
+    "answer": "The orientation of the electric field",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "What are the two components of a radio wave?",
+    "choices": [
+      "Impedance and reactance",
+      "Voltage and current",
+      "Electric and magnetic fields",
+      "Ionizing and non-ionizing radiation"
+    ],
+    "answer": "Electric and magnetic fields",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "What is the velocity of a radio wave traveling through free space?",
+    "choices": [
+      "Speed of light",
+      "Speed of sound",
+      "0.86 times the speed of light",
+      "1.86 times the speed of sound"
+    ],
+    "answer": "Speed of light",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "What is the relationship between wavelength and frequency?",
+    "choices": [
+      "Wavelength gets longer as frequency increases",
+      "Wavelength gets shorter as frequency increases",
+      "Wavelength is constant at all frequencies",
+      "Wavelength and frequency increase as path length increases"
+    ],
+    "answer": "Wavelength gets shorter as frequency increases",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "What is the formula for converting frequency to approximate wavelength in meters?",
+    "choices": [
+      "Wavelength in meters equals frequency in hertz multiplied by 300",
+      "Wavelength in meters equals frequency in hertz divided by 300",
+      "Wavelength in meters equals frequency in megahertz divided by 300",
+      "Wavelength in meters equals 300 divided by frequency in megahertz"
+    ],
+    "answer": "Wavelength in meters equals 300 divided by frequency in megahertz",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "In addition to frequency, which of the following is used to identify amateur radio bands?",
+    "choices": [
+      "The approximate wavelength in meters",
+      "Traditional letter/number designators",
+      "Channel numbers",
+      "All these choices are correct"
+    ],
+    "answer": "The approximate wavelength in meters",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "What frequency range is referred to as VHF?",
+    "choices": [
+      "30 kHz to 300 kHz",
+      "30 MHz to 300 MHz",
+      "300 kHz to 3000 kHz",
+      "300 MHz to 3000 MHz"
+    ],
+    "answer": "30 MHz to 300 MHz",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "What frequency range is referred to as UHF?",
+    "choices": [
+      "30 to 300 kHz",
+      "30 to 300 MHz",
+      "300 to 3000 kHz",
+      "300 to 3000 MHz"
+    ],
+    "answer": "300 to 3000 MHz",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "What frequency range is referred to as HF?",
+    "choices": [
+      "300 to 3000 MHz",
+      "30 to 300 MHz",
+      "3 to 30 MHz",
+      "300 to 3000 kHz"
+    ],
+    "answer": "3 to 30 MHz",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "What is the approximate velocity of a radio wave in free space?",
+    "choices": [
+      "150,000,000 meters per second",
+      "300,000,000 meters per second",
+      "300,000,000 miles per hour",
+      "150,000,000 miles per hour"
+    ],
+    "answer": "300,000,000 meters per second",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3B12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3B",
+    "question": "Which of these frequencies travels at the highest velocity in free space?",
+    "choices": [
+      "Microwaves",
+      "UHF",
+      "VHF",
+      "All radio frequencies travel at the same velocity"
+    ],
+    "answer": "All radio frequencies travel at the same velocity",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "Why are simplex UHF signals rarely heard beyond their radio horizon?",
+    "choices": [
+      "They are too weak to go very far",
+      "FCC regulations prohibit them from going more than 50 miles",
+      "UHF signals are usually not propagated by the ionosphere",
+      "UHF signals are absorbed by the ionospheric D region"
+    ],
+    "answer": "UHF signals are usually not propagated by the ionosphere",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "What is a characteristic of HF communication compared with communications on VHF and higher frequencies?",
+    "choices": [
+      "HF antennas are generally smaller",
+      "HF accommodates wider bandwidth signals",
+      "Long-distance ionospheric propagation is far more common on HF",
+      "There is less atmospheric interference (static) on HF"
+    ],
+    "answer": "Long-distance ionospheric propagation is far more common on HF",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "What is one characteristic of VHF signals received via auroral backscatter?",
+    "choices": [
+      "They are often received from 10,000 miles or more",
+      "They are distorted, with a characteristic raspy sound",
+      "They occur only during winter nighttime hours",
+      "They are generally strongest when your antenna is aimed west"
+    ],
+    "answer": "They are distorted, with a characteristic raspy sound",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "Which of the following types of propagation is most commonly associated with occasional strong signals on the 10-, 6-, and 2-meter bands from beyond the radio horizon?",
+    "choices": [
+      "Backscatter",
+      "Sporadic E",
+      "D region absorption",
+      "Gray-line propagation"
+    ],
+    "answer": "Sporadic E",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "Which of the following effects may allow radio signals to travel beyond obstructions between the transmitting and receiving stations?",
+    "choices": [
+      "Knife-edge diffraction",
+      "Faraday rotation",
+      "Quantum tunneling",
+      "Doppler shift"
+    ],
+    "answer": "Knife-edge diffraction",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "What type of propagation is responsible for allowing over-the-horizon VHF and UHF communications to ranges of approximately 300 miles on a regular basis?",
+    "choices": [
+      "Tropospheric ducting",
+      "D region refraction",
+      "F2 region refraction",
+      "Faraday rotation"
+    ],
+    "answer": "Tropospheric ducting",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "What band is best suited for communicating via meteor scatter?",
+    "choices": [
+      "33 centimeters",
+      "6 meters",
+      "2 meters",
+      "70 centimeters"
+    ],
+    "answer": "6 meters",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "What causes tropospheric ducting?",
+    "choices": [
+      "Discharges of lightning during electrical storms",
+      "Sunspots and solar flares",
+      "Updrafts from hurricanes and tornadoes",
+      "Temperature inversions in the atmosphere"
+    ],
+    "answer": "Temperature inversions in the atmosphere",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "What is generally the best time for long-distance 10-meter band propagation via the F region?",
+    "choices": [
+      "From dawn to shortly after sunset during periods of high sunspot activity",
+      "From shortly after sunset to dawn during periods of high sunspot activity",
+      "From dawn to shortly after sunset during periods of low sunspot activity",
+      "From shortly after sunset to dawn during periods of low sunspot activity"
+    ],
+    "answer": "From dawn to shortly after sunset during periods of high sunspot activity",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "Which of the following bands may provide long-distance communications via the ionosphere’s F region during the peak of the sunspot cycle?",
+    "choices": [
+      "6 and 10 meters",
+      "23 centimeters",
+      "70 centimeters and 1.25 meters",
+      "All these choices are correct"
+    ],
+    "answer": "6 and 10 meters",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T3C11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T3C",
+    "question": "Why is the radio horizon for VHF and UHF signals more distant than the visual horizon?",
+    "choices": [
+      "Radio signals move somewhat faster than the speed of light",
+      "Radio waves are not blocked by dust particles",
+      "The atmosphere refracts radio waves slightly",
+      "Radio waves are blocked by dust particles"
+    ],
+    "answer": "The atmosphere refracts radio waves slightly",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "Which of the following is an appropriate power supply rating for a typical 50-watt output mobile FM transceiver?",
+    "choices": [
+      "24.0 volts at 4 amperes",
+      "13.8 volts at 4 amperes",
+      "24.0 volts at 12 amperes",
+      "13.8 volts at 12 amperes"
+    ],
+    "answer": "13.8 volts at 12 amperes",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "Which of the following should be considered when selecting an accessory SWR meter?",
+    "choices": [
+      "The frequency and power level at which the measurements will be made",
+      "The distance that the meter will be located from the antenna",
+      "The maximum SWR anticipated on the transmission line",
+      "The ability of the meter to compensate for a poor transmission line match to the antenna"
+    ],
+    "answer": "The frequency and power level at which the measurements will be made",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "Why are short, heavy-gauge wires used for a transceiver’s DC power connection?",
+    "choices": [
+      "To minimize voltage drop when transmitting",
+      "To provide a close match to the power supply output impedance",
+      "To avoid RF interference",
+      "To minimize radiative losses in the power cable"
+    ],
+    "answer": "To minimize voltage drop when transmitting",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "How are the audio input and output of a transceiver connected in a station configured to operate using FT8?",
+    "choices": [
+      "To a computer running a terminal program and connected to a terminal node controller unit",
+      "To the audio output and input of a computer running FT8 software",
+      "To an FT8 conversion unit, a keyboard, and a computer monitor",
+      "To a computer connected to the FT8converter.com website"
+    ],
+    "answer": "To the audio output and input of a computer running FT8 software",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "Where should an RF power meter be installed?",
+    "choices": [
+      "In the feed line, between the transmitter and antenna",
+      "At the power supply output",
+      "In parallel with the push-to-talk line and the antenna",
+      "In the power supply cable, as close as possible to the radio"
+    ],
+    "answer": "In the feed line, between the transmitter and antenna",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "What signals are used in a computer-radio interface for digital mode operation?",
+    "choices": [
+      "Receive and transmit mode, status, and location",
+      "Antenna and RF power",
+      "Receive audio, transmit audio, and transmitter keying",
+      "NMEA GPS location and DC power"
+    ],
+    "answer": "Receive audio, transmit audio, and transmitter keying",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "Which of the following is one of the connections required between a computer and a transceiver to operate digital modes?",
+    "choices": [
+      "Computer “line out” to transceiver push-to-talk",
+      "Computer “line in” to transceiver push-to-talk",
+      "Computer “line in” to transceiver speaker connector",
+      "Computer “line out” to transceiver speaker connector"
+    ],
+    "answer": "Computer “line in” to transceiver speaker connector",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "Which of the following conductors is preferred for bonding at RF?",
+    "choices": [
+      "Copper braid removed from coaxial cable",
+      "Copper-clad steel wire",
+      "Twisted-pair cable",
+      "Flat copper strap"
+    ],
+    "answer": "Flat copper strap",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "How can you determine the length of time that equipment can be powered from a battery?",
+    "choices": [
+      "Divide the watt-hour rating of the battery by the peak power consumption of the equipment",
+      "Divide the battery ampere-hour rating by the average current draw of the equipment",
+      "Multiply the watts per hour consumed by the equipment by the battery power rating",
+      "Multiply the square of the current rating of the battery by the input resistance of the equipment"
+    ],
+    "answer": "Divide the battery ampere-hour rating by the average current draw of the equipment",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "What function does a digital mode hotspot perform for nearby transceivers?",
+    "choices": [
+      "Communication with a digital voice or data network",
+      "FT8 digital communications via AFSK using a smartphone connected to the internet",
+      "RTTY encoding and decoding without a computer",
+      "High-speed digital communications for meteor scatter"
+    ],
+    "answer": "Communication with a digital voice or data network",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "Where should the negative power return of a mobile transceiver be connected in a vehicle?",
+    "choices": [
+      "At the 12-volt battery chassis ground",
+      "To the shell of the power connector",
+      "To any metal part of the vehicle",
+      "Through the transceiver’s mounting bracket"
+    ],
+    "answer": "At the 12-volt battery chassis ground",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4A12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4A",
+    "question": "What is an electronic keyer?",
+    "choices": [
+      "A device for switching antennas from transmit to receive",
+      "A device for voice activated switching from receive to transmit",
+      "A device that assists in manual sending of Morse code",
+      "An interlock to prevent unauthorized use of a radio"
+    ],
+    "answer": "A device that assists in manual sending of Morse code",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "What is the effect of excessive microphone gain on SSB transmissions?",
+    "choices": [
+      "Frequency instability",
+      "Distorted transmitted audio",
+      "Increased SWR",
+      "Sideband inversion"
+    ],
+    "answer": "Distorted transmitted audio",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "Which of the following can be used to enter a transceiver’s operating frequency?",
+    "choices": [
+      "The keypad or VFO knob",
+      "The CTCSS or DTMF encoder",
+      "The Automatic Frequency Control",
+      "All these choices are correct"
+    ],
+    "answer": "The keypad or VFO knob",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "How is squelch adjusted so that a weak FM signal can be heard?",
+    "choices": [
+      "Set the squelch threshold so that receiver output audio is on all the time",
+      "Turn up the audio level until it overcomes the squelch threshold",
+      "Turn on the anti-squelch function",
+      "Enable squelch enhancement"
+    ],
+    "answer": "Set the squelch threshold so that receiver output audio is on all the time",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "What does an FM signal sound like when received slightly off frequency?",
+    "choices": [
+      "The audio increases in pitch",
+      "The audio decrease in pitch",
+      "There is no effect except for reduction in amplitude",
+      "The audio becomes distorted"
+    ],
+    "answer": "The audio becomes distorted",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "What does the scanning function of an FM transceiver do?",
+    "choices": [
+      "Checks incoming signal deviation",
+      "Prevents interference to nearby repeaters",
+      "Tunes through a range of frequencies to check for activity",
+      "Tunes through a range of frequencies to determine the antenna’s resonant frequency"
+    ],
+    "answer": "Tunes through a range of frequencies to check for activity",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "Which of the following controls could be used if the voice pitch of a single-sideband signal returning to your CQ call seems too high or low?",
+    "choices": [
+      "The AGC or limiter",
+      "The bandwidth selection",
+      "The tone squelch",
+      "The RIT or Clarifier"
+    ],
+    "answer": "The RIT or Clarifier",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "What is a DMR “code plug”?",
+    "choices": [
+      "An adapter cable used to connect a DMR radio to a computer for internet access",
+      "Configuration data loaded onto your radio to access repeaters and talkgroups",
+      "An upgrade to DMR programming software provided by the radio manufacturer to accommodate new radio models",
+      "A Coder-Decoder (CODEC) that converts analog voice data to DMR digital data and vice versa"
+    ],
+    "answer": "Configuration data loaded onto your radio to access repeaters and talkgroups",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "What is the advantage of having a choice of receiver filter bandwidths in a multimode transceiver?",
+    "choices": [
+      "Permits monitoring several modes simultaneously by selecting a separate filter for each mode",
+      "Permits noise or interference reduction by selecting a bandwidth matching the mode",
+      "Increases the number of frequencies that can be stored in memory",
+      "Increases the amount of offset between receive and transmit frequencies"
+    ],
+    "answer": "Permits noise or interference reduction by selecting a bandwidth matching the mode",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "How is a specific group of stations selected on a DMR digital voice transceiver?",
+    "choices": [
+      "By retrieving the frequencies from transceiver memory",
+      "By enabling the group’s CTCSS tone",
+      "By entering the group’s identification code",
+      "By inserting a five-pin, pre-programmed code plug"
+    ],
+    "answer": "By entering the group’s identification code",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "Which of the following receiver filter bandwidths provides the best signal-to-noise ratio for SSB reception?",
+    "choices": [
+      "500 Hz",
+      "1000 Hz",
+      "2400 Hz",
+      "5000 Hz"
+    ],
+    "answer": "2400 Hz",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T4B11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T4B",
+    "question": "Which of the following must be programmed into a D-STAR digital transceiver before transmitting?",
+    "choices": [
+      "Your call sign",
+      "Your output power",
+      "The codec type being used",
+      "All these choices are correct"
+    ],
+    "answer": "Your call sign",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "Electrical current is measured in which of the following units?",
+    "choices": [
+      "Volts",
+      "Watts",
+      "Ohms",
+      "Amperes"
+    ],
+    "answer": "Amperes",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "Electrical power is measured in which of the following units?",
+    "choices": [
+      "Volts",
+      "Watts",
+      "Watt-hours",
+      "Amperes"
+    ],
+    "answer": "Watts",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "What is the term for the flow of electrons in an electric circuit?",
+    "choices": [
+      "Voltage",
+      "Amperes per second",
+      "Volts per second",
+      "Current"
+    ],
+    "answer": "Current",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "What term describes the number of times per second that an alternating current makes a complete cycle?",
+    "choices": [
+      "Pulse rate",
+      "Wave number",
+      "Frequency",
+      "Wavelength"
+    ],
+    "answer": "Frequency",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "A difference in which of the following causes electron flow?",
+    "choices": [
+      "Voltage",
+      "Ampere-hours",
+      "Capacitance",
+      "Inductance"
+    ],
+    "answer": "Voltage",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "What is the unit of frequency?",
+    "choices": [
+      "Hertz",
+      "Henry",
+      "Farad",
+      "Epicycles per second"
+    ],
+    "answer": "Hertz",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "Why are metals generally good conductors of electricity?",
+    "choices": [
+      "They have relatively high density",
+      "They have many free electrons",
+      "They have many free protons",
+      "They have relatively high Young’s modulus values"
+    ],
+    "answer": "They have many free electrons",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "Which of the following is a good electrical insulator?",
+    "choices": [
+      "Sea water",
+      "Glass",
+      "Stainless steel",
+      "Graphite"
+    ],
+    "answer": "Glass",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "Which of the following describes alternating current?",
+    "choices": [
+      "Current that alternates between a positive direction and zero",
+      "Current that alternates between a negative direction and zero",
+      "Current that alternates between positive and negative directions",
+      "All these answers are correct"
+    ],
+    "answer": "Current that alternates between positive and negative directions",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "Which term describes the rate at which electrical energy is used?",
+    "choices": [
+      "Resistance",
+      "Current",
+      "Power",
+      "Voltage"
+    ],
+    "answer": "Power",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5A11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5A",
+    "question": "What type of current flow is opposed by resistance?",
+    "choices": [
+      "Direct current",
+      "Alternating current",
+      "RF current",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "How many milliamperes is 1.5 amperes?",
+    "choices": [
+      "0.0000015 milliamperes",
+      "0.0015 milliamperes",
+      "1500 milliamperes",
+      "1,500,000 milliamperes"
+    ],
+    "answer": "1500 milliamperes",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which is equal to 1,500,000 hertz?",
+    "choices": [
+      "1500 kHz",
+      "1500 MHz",
+      "15 GHz",
+      "150 kHz"
+    ],
+    "answer": "1500 kHz",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which is equal to one kilovolt?",
+    "choices": [
+      "One one-thousandth of a volt",
+      "One hundred volts",
+      "One thousand volts",
+      "One million volts"
+    ],
+    "answer": "One thousand volts",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which is equal to one microvolt?",
+    "choices": [
+      "One one-millionth of a volt",
+      "One million volts",
+      "One thousand kilovolts",
+      "One one-thousandth of a volt"
+    ],
+    "answer": "One one-millionth of a volt",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which is equal to 500 milliwatts?",
+    "choices": [
+      "5 watts",
+      "0.5 watts",
+      "500,000 watts",
+      "500,000,000 watts"
+    ],
+    "answer": "0.5 watts",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which is equal to 3000 milliamperes?",
+    "choices": [
+      "0.003 amperes",
+      "0.3 amperes",
+      "3,000,000 amperes",
+      "3 amperes"
+    ],
+    "answer": "3 amperes",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which is equal to 3.525 MHz?",
+    "choices": [
+      "0.003525 kHz",
+      "35.25 kHz",
+      "3525 kHz",
+      "3,525,000 kHz"
+    ],
+    "answer": "3525 kHz",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which is equal to 1,000,000 picofarads?",
+    "choices": [
+      "0.001 microfarads",
+      "1 microfarad",
+      "1000 microfarads",
+      "1,000,000,000 microfarads"
+    ],
+    "answer": "1 microfarad",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which decibel value most closely represents a power increase from 5 watts to 10 watts?",
+    "choices": [
+      "2 dB",
+      "3 dB",
+      "5 dB",
+      "10 dB"
+    ],
+    "answer": "3 dB",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which decibel value most closely represents a power decrease from 12 watts to 3 watts?",
+    "choices": [
+      "-1 dB",
+      "-3 dB",
+      "-6 dB",
+      "-9 dB"
+    ],
+    "answer": "-6 dB",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which decibel value represents a power increase from 20 watts to 200 watts?",
+    "choices": [
+      "10 dB",
+      "12 dB",
+      "18 dB",
+      "28 dB"
+    ],
+    "answer": "10 dB",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which is equal to 28400 kHz?",
+    "choices": [
+      "28.400 kHz",
+      "2.800 MHz",
+      "284.00 MHz",
+      "28.400 MHz"
+    ],
+    "answer": "28.400 MHz",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5B13",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5B",
+    "question": "Which is equal to 2425 MHz?",
+    "choices": [
+      "0.002425 GHz",
+      "24.25 GHz",
+      "2.425 GHz",
+      "242.5 GHz"
+    ],
+    "answer": "2.425 GHz",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5C01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "What describes the ability to store energy in an electric field?",
+    "choices": [
+      "Inductance",
+      "Resistance",
+      "Frequency",
+      "Capacitance"
+    ],
+    "answer": "Capacitance",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5C02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "What is the unit of capacitance?",
+    "choices": [
+      "Farad",
+      "Ohm",
       "Volt",
-      "Watt",
+      "Henry"
+    ],
+    "answer": "Farad",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5C03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "What describes the ability to store energy in a magnetic field?",
+    "choices": [
+      "Admittance",
+      "Capacitance",
+      "Resistance",
+      "Inductance"
+    ],
+    "answer": "Inductance",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5C04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "What is the unit of inductance?",
+    "choices": [
+      "Coulomb",
+      "Farad",
+      "Henry",
       "Ohm"
     ],
-    answer: "Volt"
+    "answer": "Henry",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 39,
-    exam: "Technician",
-    section: "T5A",
-    question: "What is the unit of electrical current?",
-    choices: [
+    "id": "T5C05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "What is the unit of impedance?",
+    "choices": [
       "Volt",
       "Ampere",
-      "Ohm",
-      "Farad"
+      "Coulomb",
+      "Ohm"
     ],
-    answer: "Ampere"
+    "answer": "Ohm",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 40,
-    exam: "Technician",
-    section: "T5A",
-    question: "What is the unit of resistance?",
-    choices: [
-      "Henry",
-      "Ohm",
-      "Watt",
-      "Tesla"
+    "id": "T5C06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "What is the abbreviation for kilohertz?",
+    "choices": [
+      "kHz",
+      "khz",
+      "KHz",
+      "KHZ"
     ],
-    answer: "Ohm"
+    "answer": "kHz",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 41,
-    exam: "Technician",
-    section: "T5B",
-    question: "What formula expresses Ohm’s Law?",
-    choices: [
-      "P = IE",
-      "E = IR",
-      "R = P/I",
-      "I = PR"
+    "id": "T5C07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "What is the abbreviation for megahertz?",
+    "choices": [
+      "mHz",
+      "mHZ",
+      "Mhz",
+      "MHz"
     ],
-    answer: "E = IR"
+    "answer": "MHz",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 42,
-    exam: "Technician",
-    section: "T5B",
-    question: "How is current calculated when voltage and resistance are known?",
-    choices: [
-      "I = E / R",
-      "I = E × R",
-      "I = R / E",
-      "I = P × R"
-    ],
-    answer: "I = E / R"
-  },
-  {
-    id: 43,
-    exam: "Technician",
-    section: "T5C",
-    question: "What is the unit of power?",
-    choices: [
-      "Volt",
-      "Watt",
-      "Ohm",
-      "Ampere"
-    ],
-    answer: "Watt"
-  },
-  {
-    id: 44,
-    exam: "Technician",
-    section: "T5C",
-    question: "How is DC power calculated?",
-    choices: [
-      "P = E × I",
+    "id": "T5C08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "What formula is used to calculate electrical power (P) in a DC circuit?",
+    "choices": [
+      "P = I x E",
       "P = E / I",
-      "P = I / R",
-      "P = R × T"
+      "P = I2 x E",
+      "P = I / E"
     ],
-    answer: "P = E × I"
+    "answer": "P = I x E",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 45,
-    exam: "Technician",
-    section: "T6A",
-    question: "What type of component stores energy in an electric field?",
-    choices: [
-      "Resistor",
-      "Capacitor",
+    "id": "T5C09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "How much power is delivered by a voltage of 13.8 volts DC and a current of 10 amperes?",
+    "choices": [
+      "138 watts",
+      "0.7 watts",
+      "23.8 watts",
+      "3.8 watts"
+    ],
+    "answer": "138 watts",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5C10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "How much power is delivered by a voltage of 12 volts DC and a current of 2.5 amperes?",
+    "choices": [
+      "4.8 watts",
+      "30 watts",
+      "14.5 watts",
+      "0.208 watts"
+    ],
+    "answer": "30 watts",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5C11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "How much current is required to deliver 120 watts at a voltage of 12 volts DC?",
+    "choices": [
+      "0.1 amperes",
+      "10 amperes",
+      "12 amperes",
+      "132 amperes"
+    ],
+    "answer": "10 amperes",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5C12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5C",
+    "question": "What is impedance?",
+    "choices": [
+      "The opposition to AC current flow",
+      "The inverse of resistance",
+      "The inverse of reactance",
+      "The power handling capability of a component"
+    ],
+    "answer": "The opposition to AC current flow",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What formula is used to calculate current in a circuit?",
+    "choices": [
+      "I = E x R",
+      "I = E / R",
+      "I = E2 x R",
+      "I = E2 / R"
+    ],
+    "answer": "I = E / R",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What formula is used to calculate voltage in a circuit?",
+    "choices": [
+      "E = I x R",
+      "E = I / R",
+      "E = I2 x R",
+      "E = I2 / R"
+    ],
+    "answer": "E = I x R",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What formula is used to calculate resistance in a circuit?",
+    "choices": [
+      "R = E x I",
+      "R = E / I",
+      "R = E + I",
+      "R = E - I"
+    ],
+    "answer": "R = E / I",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What is the resistance of a circuit in which a current of 3 amperes flows when connected to 90 volts?",
+    "choices": [
+      "3 ohms",
+      "30 ohms",
+      "1/30 ohm",
+      "270 ohms"
+    ],
+    "answer": "30 ohms",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What is the resistance of a circuit for which the applied voltage is 12 volts and the current flow is 1.5 amperes?",
+    "choices": [
+      "18 ohms",
+      "0.125 ohms",
+      "8 ohms",
+      "13.5 ohms"
+    ],
+    "answer": "8 ohms",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What is the resistance of a circuit that draws 4 amperes from a 12-volt source?",
+    "choices": [
+      "3 ohms",
+      "16 ohms",
+      "48 ohms",
+      "8 ohms"
+    ],
+    "answer": "3 ohms",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What is the current in a circuit with an applied voltage of 120 volts and a resistance of 80 ohms?",
+    "choices": [
+      "9600 amperes",
+      "200 amperes",
+      "0.667 amperes",
+      "1.5 amperes"
+    ],
+    "answer": "1.5 amperes",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What is the current through a 100-ohm resistor connected across 200 volts?",
+    "choices": [
+      "20,000 amperes",
+      "0.5 amperes",
+      "2 amperes",
+      "100 amperes"
+    ],
+    "answer": "2 amperes",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What is the current through a 24-ohm resistor connected across 240 volts?",
+    "choices": [
+      "2400 amperes",
+      "0.1 amperes",
+      "10 amperes",
+      "5760 amperes"
+    ],
+    "answer": "10 amperes",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What is the voltage across a 2-ohm resistor if a current of 0.5 amperes flows through it?",
+    "choices": [
+      "1 volt",
+      "0.25 volts",
+      "2.5 volts",
+      "1.5 volts"
+    ],
+    "answer": "1 volt",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What is the voltage across a 10-ohm resistor if a current of 1 ampere flows through it?",
+    "choices": [
+      "1 volt",
+      "10 volts",
+      "11 volts",
+      "9 volts"
+    ],
+    "answer": "10 volts",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "What is the voltage across a 10-ohm resistor if a current of 2 amperes flows through it?",
+    "choices": [
+      "8 volts",
+      "0.2 volts",
+      "12 volts",
+      "20 volts"
+    ],
+    "answer": "20 volts",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D13",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "In which type of circuit is the current always the same through all components?",
+    "choices": [
+      "Series",
+      "Parallel",
+      "Resonant",
+      "Branch"
+    ],
+    "answer": "Series",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T5D14",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T5D",
+    "question": "In which type of circuit is the voltage always the same across all components?",
+    "choices": [
+      "Series",
+      "Parallel",
+      "Resonant",
+      "Branch"
+    ],
+    "answer": "Parallel",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6A01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "What electrical component opposes the flow of current in a DC circuit?",
+    "choices": [
       "Inductor",
-      "Fuse"
-    ],
-    answer: "Capacitor"
-  },  
-  {
-    id: 46,
-    exam: "Technician",
-    section: "T6A",
-    question: "What type of component stores energy in a magnetic field?",
-    choices: [
-      "Capacitor",
-      "Inductor",
       "Resistor",
-      "Diode"
-    ],
-    answer: "Inductor"
-  },
-  {
-    id: 47,
-    exam: "Technician",
-    section: "T6A",
-    question: "What is the primary function of a fuse?",
-    choices: [
-      "Increase transmit power",
-      "Protect circuits from excessive current",
-      "Tune an antenna",
-      "Reduce noise"
-    ],
-    answer: "Protect circuits from excessive current"
-  },
-  {
-    id: 48,
-    exam: "Technician",
-    section: "T6B",
-    question: "What semiconductor device allows current to flow primarily in one direction?",
-    choices: [
-      "Resistor",
-      "Capacitor",
-      "Diode",
+      "Inverter",
       "Transformer"
     ],
-    answer: "Diode"
+    "answer": "Resistor",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 49,
-    exam: "Technician",
-    section: "T6B",
-    question: "What semiconductor device is commonly used as an amplifier or electronic switch?",
-    choices: [
-      "Fuse",
+    "id": "T6A02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "What type of component is often used as an adjustable volume control?",
+    "choices": [
+      "Fixed resistor",
+      "Power resistor",
+      "Potentiometer",
+      "Transformer"
+    ],
+    "answer": "Potentiometer",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6A03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "What electrical parameter is controlled by a potentiometer?",
+    "choices": [
+      "Inductance",
+      "Resistance",
+      "Capacitance",
+      "Field strength"
+    ],
+    "answer": "Resistance",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6A04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "What electrical component stores energy in an electric field?",
+    "choices": [
+      "Resistor",
+      "Capacitor",
+      "Inductor",
+      "Diode"
+    ],
+    "answer": "Capacitor",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6A05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "What type of electrical component consists of conductive surfaces separated by an insulator?",
+    "choices": [
+      "Resistor",
+      "Potentiometer",
+      "Oscillator",
+      "Capacitor"
+    ],
+    "answer": "Capacitor",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6A06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "What type of electrical component stores energy in a magnetic field?",
+    "choices": [
+      "Resistor",
+      "Capacitor",
+      "Inductor",
+      "Diode"
+    ],
+    "answer": "Inductor",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6A07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "What electrical component is typically constructed as a coil of wire?",
+    "choices": [
       "Transistor",
-      "Relay",
-      "Meter"
+      "Capacitor",
+      "Diode",
+      "Inductor"
     ],
-    answer: "Transistor"
+    "answer": "Inductor",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 50,
-    exam: "Technician",
-    section: "T6C",
-    question: "What is a schematic diagram?",
-    choices: [
-      "A map of repeater locations",
-      "A drawing using symbols to show electrical connections",
-      "A station logbook",
-      "An antenna installation guide"
+    "id": "T6A08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "What is the function of an SPDT switch?",
+    "choices": [
+      "A single circuit is opened or closed",
+      "Two circuits are opened or closed",
+      "A single circuit is switched between one of two other circuits",
+      "Two circuits are each switched between one of two other circuits"
     ],
-    answer: "A drawing using symbols to show electrical connections"
+    "answer": "A single circuit is switched between one of two other circuits",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 51,
-    exam: "Technician",
-    section: "T7A",
-    question: "What is a transceiver?",
-    choices: [
-      "A separate power supply",
-      "A device combining a transmitter and receiver",
-      "A type of antenna analyzer",
-      "A digital logbook"
+    "id": "T6A09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "What type of switch is represented by component 3 in figure T-2?",
+    "choices": [
+      "Single-pole single-throw",
+      "Single-pole double-throw",
+      "Double-pole single-throw",
+      "Double-pole double-throw"
     ],
-    answer: "A device combining a transmitter and receiver"
+    "answer": "Single-pole single-throw",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 52,
-    exam: "Technician",
-    section: "T7A",
-    question: "What does the abbreviation PTT mean?",
-    choices: [
-      "Primary Tuning Terminal",
-      "Push-To-Talk",
-      "Portable Tone Test",
-      "Peak Transfer Tuning"
+    "id": "T6A10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "Which of the following battery chemistries is rechargeable?",
+    "choices": [
+      "Nickel-metal hydride",
+      "Lithium-ion",
+      "Lead-acid",
+      "All these choices are correct"
     ],
-    answer: "Push-To-Talk"
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 53,
-    exam: "Technician",
-    section: "T7B",
-    question: "What might cause reports of distorted transmitted audio?",
-    choices: [
-      "Speaking too loudly into the microphone",
-      "Using low power",
-      "Using a good antenna",
-      "Having a full battery"
+    "id": "T6A11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6A",
+    "question": "Which of the following battery chemistries is not rechargeable?",
+    "choices": [
+      "Nickel-cadmium",
+      "Carbon-zinc",
+      "Lead-acid",
+      "Lithium-ion"
     ],
-    answer: "Speaking too loudly into the microphone"
+    "answer": "Carbon-zinc",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 54,
-    exam: "Technician",
-    section: "T7B",
-    question: "What can reduce RF interference to nearby audio equipment?",
-    choices: [
-      "Increase transmit power",
-      "Use shielding, ferrites, or improve grounding",
-      "Use a longer microphone cord",
-      "Lower squelch"
+    "id": "T6B01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "Which is true about forward voltage drop in a diode?",
+    "choices": [
+      "It is lower in some diode types than in others",
+      "It is proportional to peak inverse voltage",
+      "It indicates that the diode is defective",
+      "It has no impact on the voltage delivered to the load"
     ],
-    answer: "Use shielding, ferrites, or improve grounding"
+    "answer": "It is lower in some diode types than in others",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 55,
-    exam: "Technician",
-    section: "T7C",
-    question: "What does SWR stand for?",
-    choices: [
-      "Signal Wave Ratio",
-      "Standing Wave Ratio",
-      "Standard Watt Reading",
-      "Sideband Width Response"
+    "id": "T6B02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "What electronic component allows current to flow in only one direction?",
+    "choices": [
+      "Resistor",
+      "Fuse",
+      "Diode",
+      "Driven element"
     ],
-    answer: "Standing Wave Ratio"
+    "answer": "Diode",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 56,
-    exam: "Technician",
-    section: "T7C",
-    question: "What does a high SWR often indicate?",
-    choices: [
-      "Perfect antenna match",
-      "A mismatch between feed line and antenna system",
-      "Low battery voltage",
-      "Receiver overload"
+    "id": "T6B03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "Which of these components can be used as an electronic switch?",
+    "choices": [
+      "Varistor",
+      "Potentiometer",
+      "Transistor",
+      "Thermistor"
     ],
-    answer: "A mismatch between feed line and antenna system"
+    "answer": "Transistor",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 57,
-    exam: "Technician",
-    section: "T7D",
-    question: "What tool is used to measure resistance?",
-    choices: [
+    "id": "T6B04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "Which of the following components can consist of three regions of semiconductor material?",
+    "choices": [
+      "Alternator",
+      "Transistor",
+      "Triode",
+      "Pentode"
+    ],
+    "answer": "Transistor",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6B05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "What type of transistor has a gate, drain, and source?",
+    "choices": [
+      "Varistor",
+      "Field-effect",
+      "Hall-effect",
+      "Bipolar junction"
+    ],
+    "answer": "Field-effect",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6B06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "How is the cathode lead of a semiconductor diode often marked on the package?",
+    "choices": [
+      "With the word \"cathode\"",
+      "With a stripe",
+      "With the letter C",
+      "With the letter K"
+    ],
+    "answer": "With a stripe",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6B07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "What causes a light-emitting diode (LED) to emit light?",
+    "choices": [
+      "Forward current",
+      "Reverse current",
+      "Capacitively-coupled RF signal",
+      "Inductively-coupled RF signal"
+    ],
+    "answer": "Forward current",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6B08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "What does the abbreviation FET stand for?",
+    "choices": [
+      "Frequency Emission Transmitter",
+      "Fast Electron Transistor",
+      "Free Electron Transmitter",
+      "Field Effect Transistor"
+    ],
+    "answer": "Field Effect Transistor",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6B09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "What are the names for the electrodes of a diode?",
+    "choices": [
+      "Plus and minus",
+      "Source and drain",
+      "Anode and cathode",
+      "Gate and base"
+    ],
+    "answer": "Anode and cathode",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6B10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "Which of the following can provide power gain?",
+    "choices": [
+      "Transformer",
+      "Transistor",
+      "Reactor",
+      "Resistor"
+    ],
+    "answer": "Transistor",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6B11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "What does the term gain mean in amplifiers?",
+    "choices": [
+      "The output signal voltage relative to the input signal voltage",
+      "The output signal current relative to the input signal current",
+      "The output signal power relative to the input signal power",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6B12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6B",
+    "question": "What are the names of the electrodes of a bipolar junction transistor?",
+    "choices": [
+      "Signal, bias, power",
+      "Emitter, base, collector",
+      "Input, output, supply",
+      "Pole one, pole two, output"
+    ],
+    "answer": "Emitter, base, collector",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is an electrical diagram using standard component symbols called?",
+    "choices": [
+      "Connection chart",
+      "Instrumentation system",
+      "Schematic",
+      "Flow chart"
+    ],
+    "answer": "Schematic",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is component 1 in figure T-1?",
+    "choices": [
+      "Resistor",
+      "Transistor",
+      "Battery",
+      "Connector"
+    ],
+    "answer": "Resistor",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is component 2 in figure T-1?",
+    "choices": [
+      "Resistor",
+      "Transistor",
+      "Indicator lamp",
+      "Connector"
+    ],
+    "answer": "Transistor",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is component 3 in figure T-1?",
+    "choices": [
+      "Resistor",
+      "Transistor",
+      "Lamp",
+      "Ground symbol"
+    ],
+    "answer": "Lamp",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is component 4 in figure T-1?",
+    "choices": [
+      "Resistor",
+      "Transistor",
+      "Ground symbol",
+      "Battery"
+    ],
+    "answer": "Battery",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is component 6 in figure T-2?",
+    "choices": [
+      "Resistor",
+      "Capacitor",
+      "Regulator IC",
+      "Transistor"
+    ],
+    "answer": "Capacitor",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is component 8 in figure T-2?",
+    "choices": [
+      "Resistor",
+      "Inductor",
+      "Regulator IC",
+      "Light emitting diode"
+    ],
+    "answer": "Light emitting diode",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is component 9 in figure T-2?",
+    "choices": [
+      "Variable capacitor",
+      "Variable inductor",
+      "Variable resistor",
+      "Variable transformer"
+    ],
+    "answer": "Variable resistor",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is component 4 in figure T-2?",
+    "choices": [
+      "Variable inductor",
+      "Double-pole switch",
+      "Potentiometer",
+      "Transformer"
+    ],
+    "answer": "Transformer",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is component 3 in figure T-3?",
+    "choices": [
+      "Connector",
+      "Meter",
+      "Variable capacitor",
+      "Variable inductor"
+    ],
+    "answer": "Variable inductor",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "What is component 4 in figure T-3?",
+    "choices": [
+      "Antenna",
+      "Transmitter",
+      "Dummy load",
+      "Ground"
+    ],
+    "answer": "Antenna",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6C12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6C",
+    "question": "Which of the following is accurately represented in electrical schematics?",
+    "choices": [
+      "Wire lengths",
+      "Physical appearance of components",
+      "Component connections",
+      "All these choices are correct"
+    ],
+    "answer": "Component connections",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "Which of the following devices or circuits changes an alternating current into a varying direct current signal?",
+    "choices": [
+      "Transformer",
+      "Rectifier",
+      "Amplifier",
+      "Reflector"
+    ],
+    "answer": "Rectifier",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "What is a relay?",
+    "choices": [
+      "An electrically-controlled switch",
+      "A current-controlled amplifier",
+      "An inverting amplifier",
+      "A pass transistor"
+    ],
+    "answer": "An electrically-controlled switch",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "Which of the following is a reason to use shielded wire?",
+    "choices": [
+      "To decrease the resistance of DC power connections",
+      "To increase the current carrying capability of the wire",
+      "To prevent coupling of unwanted signals to or from the wire",
+      "To reduce receiver overload"
+    ],
+    "answer": "To prevent coupling of unwanted signals to or from the wire",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "Which of the following displays an electrical quantity as a numeric value?",
+    "choices": [
+      "Potentiometer",
+      "Transistor",
+      "Meter",
+      "Relay"
+    ],
+    "answer": "Meter",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "What type of circuit controls the amount of voltage from a power supply?",
+    "choices": [
+      "Regulator",
+      "Oscillator",
+      "Filter",
+      "Phase inverter"
+    ],
+    "answer": "Regulator",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "What component changes 120 V AC power to a lower AC voltage for other uses?",
+    "choices": [
+      "Variable capacitor",
+      "Transformer",
+      "Transistor",
+      "Diode"
+    ],
+    "answer": "Transformer",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "Which of the following is commonly used as a visual indicator?",
+    "choices": [
+      "LED",
+      "FET",
+      "Zener diode",
+      "All these choices are correct"
+    ],
+    "answer": "LED",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "Which of the following is combined with an inductor to make a resonant circuit?",
+    "choices": [
+      "Resistor",
+      "Zener diode",
+      "Potentiometer",
+      "Capacitor"
+    ],
+    "answer": "Capacitor",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "What is the name of a device that combines several semiconductors and other components into one package?",
+    "choices": [
+      "Transducer",
+      "Multi-pole relay",
+      "Integrated circuit",
+      "Transformer"
+    ],
+    "answer": "Integrated circuit",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "What is the function of component 2 in figure T-1?",
+    "choices": [
+      "Give off light when current flows through it",
+      "Supply electrical energy",
+      "Control the flow of current",
+      "Convert electrical energy into radio waves"
+    ],
+    "answer": "Control the flow of current",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T6D11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T6D",
+    "question": "Which of the following is a resonant or tuned circuit?",
+    "choices": [
+      "An inductor and a capacitor in series or parallel",
+      "A linear voltage regulator",
+      "A resistor circuit used for reducing standing wave ratio",
+      "A circuit designed to provide high-fidelity audio"
+    ],
+    "answer": "An inductor and a capacitor in series or parallel",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "Which term describes the ability of a receiver to detect the presence of a signal?",
+    "choices": [
+      "RF gain",
+      "Sensitivity",
+      "Selectivity",
+      "Total Harmonic Distortion"
+    ],
+    "answer": "Sensitivity",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "What is a transceiver?",
+    "choices": [
+      "A device that combines a receiver and transmitter",
+      "A device for matching feed line impedance to 50 ohms",
+      "A device for automatically sending and decoding Morse code",
+      "A device for converting receiver and transmitter frequencies to another band"
+    ],
+    "answer": "A device that combines a receiver and transmitter",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "Which of the following is used to convert a signal from one frequency to another?",
+    "choices": [
+      "Phase splitter",
+      "Mixer",
+      "Inverter",
+      "Amplifier"
+    ],
+    "answer": "Mixer",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "Which term describes the ability of a receiver to discriminate between multiple signals?",
+    "choices": [
+      "Discrimination ratio",
+      "Sensitivity",
+      "Selectivity",
+      "Harmonic distortion"
+    ],
+    "answer": "Selectivity",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "What is the name of a circuit that generates a signal at a specific frequency?",
+    "choices": [
+      "Reactance modulator",
+      "Phase modulator",
+      "Low-pass filter",
+      "Oscillator"
+    ],
+    "answer": "Oscillator",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "What device converts the RF input and output of a transceiver to another band?",
+    "choices": [
+      "High-pass filter",
+      "Low-pass filter",
+      "Transverter",
+      "Phase converter"
+    ],
+    "answer": "Transverter",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "What is the function of a transceiver’s PTT input?",
+    "choices": [
+      "Input for a key used to send CW",
+      "Switches transceiver from receive to transmit when grounded",
+      "Provides a transmit tuning tone when grounded",
+      "Input for a preamplifier tuning tone"
+    ],
+    "answer": "Switches transceiver from receive to transmit when grounded",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "Which of the following describes combining speech with an RF carrier signal?",
+    "choices": [
+      "Impedance matching",
+      "Oscillation",
+      "Modulation",
+      "Low-pass filtering"
+    ],
+    "answer": "Modulation",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "What is the function of the switch which selects either SSB or CW-FM on some VHF power amplifiers?",
+    "choices": [
+      "Change the mode of the transmitted signal",
+      "Set the amplifier for proper operation in the selected mode",
+      "Change the frequency range of the amplifier to operate in the proper segment of the band",
+      "Reduce the received signal noise"
+    ],
+    "answer": "Set the amplifier for proper operation in the selected mode",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "What can be added to the output of a transceiver to increase the transmitted output power?",
+    "choices": [
+      "A potentiometer",
+      "An RF power amplifier",
+      "An impedance multiplier",
+      "All these choices are correct"
+    ],
+    "answer": "An RF power amplifier",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7A11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7A",
+    "question": "What is the function of the Variable Frequency Oscillator (VFO) circuit in a transceiver?",
+    "choices": [
+      "Set the receive and transmit frequency",
+      "Provide automatic frequency control",
+      "Inject a variable frequency to allow CW reception",
+      "Generate and demodulate single sideband signals"
+    ],
+    "answer": "Set the receive and transmit frequency",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "What can you do if you are told your FM handheld or mobile transceiver is over-deviating?",
+    "choices": [
+      "Talk louder into the microphone",
+      "Let the transceiver cool off",
+      "Change to a higher power level",
+      "Talk farther away from the microphone"
+    ],
+    "answer": "Talk farther away from the microphone",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "What would cause a broadcast AM or FM radio to receive an amateur radio transmission unintentionally?",
+    "choices": [
+      "The receiver is unable to reject strong signals outside the AM or FM band",
+      "The microphone gain of the transmitter is turned up too high",
+      "The audio amplifier of the transmitter is overloaded",
+      "The deviation of an FM transmitter is set too low"
+    ],
+    "answer": "The receiver is unable to reject strong signals outside the AM or FM band",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "Which of the following can cause radio frequency interference?",
+    "choices": [
+      "Fundamental overload",
+      "Harmonics",
+      "Spurious emissions",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "Which of the following might be the cause of low RF power output from a solid-state transceiver?",
+    "choices": [
+      "Poor amplifier noise figure",
+      "Poor amplifier linearity",
+      "Low SWR",
+      "High SWR"
+    ],
+    "answer": "High SWR",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "Which of the following might reduce interference by an amateur station to a non-amateur over-the-air radio receiver?",
+    "choices": [
+      "Block the amateur signal with a filter at the antenna input of the affected receiver",
+      "Block the interfering signal with a filter on the amateur transmitter",
+      "Switch the transmitter from FM to SSB",
+      "Switch the transmitter to a narrow-band mode"
+    ],
+    "answer": "Block the amateur signal with a filter at the antenna input of the affected receiver",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "Which of the following actions should you take if a neighbor tells you that your station’s transmissions are interfering with their radio or TV reception?",
+    "choices": [
+      "Make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel",
+      "Immediately turn off your transmitter and contact the nearest FCC office for assistance",
+      "Install a harmonic doubler on the output of your transmitter and tune it until the interference is eliminated",
+      "All these choices are correct"
+    ],
+    "answer": "Make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "Which of the following can reduce interference to a 2-meter band transceiver from a nearby commercial FM station?",
+    "choices": [
+      "Installing an RF preamplifier",
+      "Using double-shielded coaxial cable",
+      "Installing bypass capacitors on the microphone cable",
+      "Installing a band-reject filter"
+    ],
+    "answer": "Installing a band-reject filter",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "What should you do if something in a neighbor’s home is causing harmful interference to your amateur station?",
+    "choices": [
+      "Work with your neighbor to identify the offending device",
+      "Politely inform your neighbor that FCC rules prohibit the use of devices that cause interference",
+      "Make sure your station meets the standards of good amateur practice",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "What should be the first step to resolve non-fiber optic cable TV interference caused by your amateur radio transmission?",
+    "choices": [
+      "Add a low-pass filter to the TV antenna input",
+      "Add a high-pass filter to the TV antenna input",
+      "Add a preamplifier to the TV antenna input",
+      "Be sure all TV feed line coaxial connectors are installed properly"
+    ],
+    "answer": "Be sure all TV feed line coaxial connectors are installed properly",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "What might be a problem if you receive a report that your audio signal through an FM repeater is distorted or unintelligible?",
+    "choices": [
+      "Your transmitter is slightly off frequency",
+      "You are speaking too loudly or too close to the microphone",
+      "You are in a bad location",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7B11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7B",
+    "question": "Which of the following can eliminate distorted voice transmissions?",
+    "choices": [
+      "Adding extra feedline to the antenna to lower SWR",
+      "Turning the radio on and off to reset the computer-controlled circuitry",
+      "Adding a clip-on ferrite “choke” to the microphone cable to prevent the transmitted signal from feeding back into the transmitter",
+      "Turning the squelch control fully clockwise to prevent the transmitted signal from triggering the squelch circuit"
+    ],
+    "answer": "Adding a clip-on ferrite “choke” to the microphone cable to prevent the transmitted signal from feeding back into the transmitter",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7C01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "What is the primary purpose of a dummy load?",
+    "choices": [
+      "To prevent transmitting signals over the air when making tests",
+      "To prevent over-modulation of a transmitter",
+      "To improve the efficiency of an antenna",
+      "To improve the signal-to-noise ratio of a receiver"
+    ],
+    "answer": "To prevent transmitting signals over the air when making tests",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7C02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "Which of the following is used to determine if an antenna is resonant at the desired operating frequency?",
+    "choices": [
+      "A VTVM",
+      "An antenna analyzer",
+      "A Q meter",
+      "A frequency counter"
+    ],
+    "answer": "An antenna analyzer",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7C03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "What does a typical RF dummy load consist of?",
+    "choices": [
+      "A low-voltage power supply and an AC relay",
+      "A 50-ohm non-inductive resistor mounted on a heat sink",
+      "A low-voltage power supply and a DC relay",
+      "A 50-ohm inductive reactance mounted in a shielded enclosure"
+    ],
+    "answer": "A 50-ohm non-inductive resistor mounted on a heat sink",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7C04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "What reading on an SWR meter indicates a perfect impedance match between the antenna and the feed line?",
+    "choices": [
+      "50:50",
+      "Zero",
+      "1:1",
+      "Full Scale"
+    ],
+    "answer": "1:1",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7C05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "Why do most solid-state transmitters reduce output power as SWR increases beyond a certain level?",
+    "choices": [
+      "To protect the RF output amplifier transistors",
+      "To comply with FCC rules on spectral purity",
+      "Because power supplies cannot supply enough current at high SWR",
+      "To lower the SWR on the transmission line"
+    ],
+    "answer": "To protect the RF output amplifier transistors",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7C06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "What does an SWR reading of 4:1 indicate?",
+    "choices": [
+      "Loss of -4 dB",
+      "Good impedance match",
+      "Gain of +4 dB",
+      "Impedance mismatch"
+    ],
+    "answer": "Impedance mismatch",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7C07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "What happens to power lost in a feed line?",
+    "choices": [
+      "It increases the SWR",
+      "It is radiated as harmonics",
+      "It is converted into heat",
+      "It distorts the signal"
+    ],
+    "answer": "It is converted into heat",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7C08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "Which instrument can be used to determine SWR?",
+    "choices": [
       "Voltmeter",
       "Ohmmeter",
-      "Frequency counter",
-      "Dummy load"
+      "Iambic pentameter",
+      "Directional wattmeter"
     ],
-    answer: "Ohmmeter"
+    "answer": "Directional wattmeter",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 58,
-    exam: "Technician",
-    section: "T8A",
-    question: "What does FM stand for?",
-    choices: [
-      "Frequency Modulation",
-      "Fast Mode",
-      "Field Metering",
-      "Fixed Modulation"
+    "id": "T7C09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "Which of the following causes failure of coaxial cables?",
+    "choices": [
+      "Moisture contamination",
+      "Solder flux contamination",
+      "Rapid fluctuation in transmitter output power",
+      "Operation at 100% duty cycle for an extended period"
     ],
-    answer: "Frequency Modulation"
+    "answer": "Moisture contamination",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 59,
-    exam: "Technician",
-    section: "T8A",
-    question: "What does SSB stand for?",
-    choices: [
-      "Single Sideband",
-      "Standard Signal Band",
-      "Shortwave Side Base",
-      "Simplex Sideband"
+    "id": "T7C10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "Why should the outer jacket of coaxial cable be resistant to ultraviolet light?",
+    "choices": [
+      "Ultraviolet light can increase the resistance of the conductors",
+      "Ultraviolet light can increase losses in the cable’s jacket",
+      "Ultraviolet and RF signals can mix, causing interference",
+      "Ultraviolet light can damage the jacket and allow water to enter the cable"
     ],
-    answer: "Single Sideband"
+    "answer": "Ultraviolet light can damage the jacket and allow water to enter the cable",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 60,
-    exam: "Technician",
-    section: "T9A",
-    question: "What is a dipole antenna?",
-    choices: [
-      "A two-conductor resonant antenna commonly fed in the center",
-      "A battery backup system",
-      "A type of repeater controller",
-      "A handheld radio microphone"
+    "id": "T7C11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7C",
+    "question": "What is an advantage of foam-dielectric versus solid-dielectric coaxial cable?",
+    "choices": [
+      "It is more resistant to moisture contamination",
+      "It has higher voltage breakdown",
+      "It has less loss per foot",
+      "It has a better impedance match to 50 ohms"
     ],
-    answer: "A two-conductor resonant antenna commonly fed in the center"
-  },  
-  {
-    id: 61,
-    exam: "Technician",
-    section: "T9A",
-    question: "What is antenna gain?",
-    choices: [
-      "The increase in transmitter power caused by the power supply",
-      "The ability of an antenna to direct radio energy in a particular direction",
-      "The resistance of a feed line",
-      "The length of coax used between radio and antenna"
-    ],
-    answer: "The ability of an antenna to direct radio energy in a particular direction"
+    "answer": "It has less loss per foot",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 62,
-    exam: "Technician",
-    section: "T9A",
-    question: "What type of antenna is commonly used on vehicles for VHF/UHF FM operation?",
-    choices: [
-      "Mobile vertical antenna",
-      "Beverage antenna",
-      "Rhombic antenna",
-      "Loop receiving antenna only"
+    "id": "T7D01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "Which instrument would you use to measure electric potential?",
+    "choices": [
+      "An ammeter",
+      "A voltmeter",
+      "A potentiometer",
+      "An ohmmeter"
     ],
-    answer: "Mobile vertical antenna"
+    "answer": "A voltmeter",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 63,
-    exam: "Technician",
-    section: "T9B",
-    question: "What is coaxial cable commonly used for in an amateur station?",
-    choices: [
-      "Connecting radio equipment to antennas",
-      "Charging batteries only",
-      "Programming radio memories",
-      "Logging contacts"
+    "id": "T7D02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "How is a voltmeter connected to a component to measure applied voltage?",
+    "choices": [
+      "In series",
+      "In parallel",
+      "In quadrature",
+      "In phase"
     ],
-    answer: "Connecting radio equipment to antennas"
+    "answer": "In parallel",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 64,
-    exam: "Technician",
-    section: "T9B",
-    question: "Why should outdoor coax connections be weatherproofed?",
-    choices: [
-      "To prevent water from entering and causing loss or corrosion",
-      "To make the antenna transmit farther automatically",
-      "To reduce license requirements",
-      "To change FM into SSB"
+    "id": "T7D03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "When configured to measure current, how is a multimeter connected to a component?",
+    "choices": [
+      "In series",
+      "In parallel",
+      "In quadrature",
+      "In phase"
     ],
-    answer: "To prevent water from entering and causing loss or corrosion"
+    "answer": "In series",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 65,
-    exam: "Technician",
-    section: "T0A",
-    question: "What is a good safety practice when working on electrical equipment?",
-    choices: [
-      "Work on energized circuits whenever possible",
-      "Remove power before working on equipment",
-      "Bypass fuses temporarily",
-      "Use undersized wire"
+    "id": "T7D04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "Which instrument is used to measure electric current?",
+    "choices": [
+      "An ohmmeter",
+      "An electrometer",
+      "A voltmeter",
+      "An ammeter"
     ],
-    answer: "Remove power before working on equipment"
+    "answer": "An ammeter",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 66,
-    exam: "Technician",
-    section: "T0A",
-    question: "Why are fuses or circuit breakers used in power circuits?",
-    choices: [
-      "To improve audio quality",
-      "To protect wiring and equipment from excessive current",
-      "To increase antenna gain",
-      "To tune feed lines"
+    "id": "T7D05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "How does an ohmmeter measure the resistance of a circuit or component?",
+    "choices": [
+      "By applying a small current and measuring the resulting voltage",
+      "By placing a variable resistor in parallel with the circuit",
+      "By placing a variable resistor in series with the circuit",
+      "By applying a variable voltage and measuring the resulting current change"
     ],
-    answer: "To protect wiring and equipment from excessive current"
+    "answer": "By applying a small current and measuring the resulting voltage",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 67,
-    exam: "Technician",
-    section: "T0B",
-    question: "What is a major hazard when installing an antenna?",
-    choices: [
-      "Overhead power lines",
-      "Too many memory channels",
-      "Low SWR",
-      "Using phonetics"
+    "id": "T7D06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "Which of the following can damage a multimeter?",
+    "choices": [
+      "Attempting to measure resistance using the voltage setting",
+      "Failing to connect one of the probes to ground",
+      "Attempting to measure voltage when using the resistance setting",
+      "Not allowing it to warm up properly"
     ],
-    answer: "Overhead power lines"
+    "answer": "Attempting to measure voltage when using the resistance setting",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 68,
-    exam: "Technician",
-    section: "T0B",
-    question: "What should you do before climbing a tower or mast?",
-    choices: [
-      "Check that the structure is safe and use proper safety equipment",
-      "Increase transmitter power",
-      "Turn off squelch",
-      "Call CQ"
+    "id": "T7D07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "Which of the following measurements are made using a multimeter?",
+    "choices": [
+      "Signal strength and noise",
+      "Impedance and reactance",
+      "Voltage and resistance",
+      "All these choices are correct"
     ],
-    answer: "Check that the structure is safe and use proper safety equipment"
+    "answer": "Voltage and resistance",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 69,
-    exam: "Technician",
-    section: "T0C",
-    question: "What type of radiation can present an RF exposure hazard?",
-    choices: [
-      "Radio-frequency electromagnetic energy",
-      "Visible light only",
-      "Sound waves only",
-      "Static electricity only"
+    "id": "T7D08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "Which of the following types of solder should not be used for radio and electronic applications?",
+    "choices": [
+      "Acid-core solder",
+      "Lead-tin solder",
+      "Rosin-core solder",
+      "Tin-copper solder"
     ],
-    answer: "Radio-frequency electromagnetic energy"
+    "answer": "Acid-core solder",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
   },
   {
-    id: 70,
-    exam: "Technician",
-    section: "T0C",
-    question: "What factor affects RF exposure?",
-    choices: [
-      "Power level, frequency, distance, and exposure time",
-      "Only the color of the radio",
-      "Only the brand of antenna",
-      "Only the call sign format"
+    "id": "T7D09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "What is the characteristic appearance of a cold tin-lead solder joint?",
+    "choices": [
+      "Dark black spots",
+      "A bright or shiny surface",
+      "A rough or lumpy surface",
+      "A greenish tinge"
     ],
-    answer: "Power level, frequency, distance, and exposure time"
+    "answer": "A rough or lumpy surface",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7D10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "What reading indicates that an ohmmeter is connected across a large, discharged capacitor?",
+    "choices": [
+      "Increasing resistance with time",
+      "Decreasing resistance with time",
+      "Steady full-scale reading",
+      "Alternating between open and short circuit"
+    ],
+    "answer": "Increasing resistance with time",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T7D11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T7D",
+    "question": "Which of the following precautions should be taken when measuring in-circuit resistance with an ohmmeter?",
+    "choices": [
+      "Ensure that the applied voltages are correct",
+      "Ensure that the circuit is not powered",
+      "Ensure that the circuit is grounded",
+      "Ensure that the circuit is operating at the correct frequency"
+    ],
+    "answer": "Ensure that the circuit is not powered",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "Which of the following is a form of amplitude modulation?",
+    "choices": [
+      "Spread spectrum",
+      "Packet radio",
+      "Single sideband",
+      "Phase shift keying (PSK)"
+    ],
+    "answer": "Single sideband",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "What type of modulation is commonly used for VHF packet radio transmissions?",
+    "choices": [
+      "FM or PM",
+      "SSB",
+      "AM",
+      "PSK"
+    ],
+    "answer": "FM or PM",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "Which type of voice mode is often used for long-distance (weak signal) contacts on the VHF and UHF bands?",
+    "choices": [
+      "FM",
+      "DRM",
+      "SSB",
+      "PM"
+    ],
+    "answer": "SSB",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "Which type of modulation is commonly used for VHF and UHF voice repeaters?",
+    "choices": [
+      "AM",
+      "SSB",
+      "PSK",
+      "FM or PM"
+    ],
+    "answer": "FM or PM",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "Which of the following signal types has the narrowest bandwidth?",
+    "choices": [
+      "FM voice",
+      "SSB voice",
+      "CW",
+      "Slow-scan TV"
+    ],
+    "answer": "CW",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "Which sideband is normally used for 10-meter HF, VHF, and UHF single-sideband communications?",
+    "choices": [
+      "Upper sideband",
+      "Lower sideband",
+      "Suppressed sideband",
+      "Inverted sideband"
+    ],
+    "answer": "Upper sideband",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "What is one characteristic of single sideband (SSB) compared to FM?",
+    "choices": [
+      "SSB signals are easier to tune in correctly",
+      "SSB signals are less susceptible to interference",
+      "SSB signals have narrower bandwidth",
+      "SSB signals are less susceptible to high SWR"
+    ],
+    "answer": "SSB signals have narrower bandwidth",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "What is the approximate bandwidth of a typical single sideband (SSB) voice signal?",
+    "choices": [
+      "1 kHz",
+      "3 kHz",
+      "6 kHz",
+      "15 kHz"
+    ],
+    "answer": "3 kHz",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "What is the approximate bandwidth of an FM voice signal on VHF repeaters?",
+    "choices": [
+      "Less than 500 Hz",
+      "About 150 kHz",
+      "Between 10 and 15 kHz",
+      "Between 50 and 125 kHz"
+    ],
+    "answer": "Between 10 and 15 kHz",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "What is the approximate bandwidth of AM fast-scan TV transmissions?",
+    "choices": [
+      "More than 10 MHz",
+      "About 6 MHz",
+      "About 3 MHz",
+      "About 1 MHz"
+    ],
+    "answer": "About 6 MHz",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "What is the approximate bandwidth required to transmit a CW signal?",
+    "choices": [
+      "2.4 kHz",
+      "150 Hz",
+      "1000 Hz",
+      "15 kHz"
+    ],
+    "answer": "150 Hz",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8A12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8A",
+    "question": "Which of the following is a disadvantage of FM compared with single sideband?",
+    "choices": [
+      "Voice quality is poorer",
+      "Only one signal can be received at a time",
+      "FM signals are harder to tune",
+      "FM signals are more susceptible to high SWR"
+    ],
+    "answer": "Only one signal can be received at a time",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "What telemetry information is typically transmitted by satellite beacons?",
+    "choices": [
+      "The signal strength of received signals",
+      "Time of day accurate to plus or minus 1/10 second",
+      "Health and status of the satellite",
+      "All these choices are correct"
+    ],
+    "answer": "Health and status of the satellite",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "What is the impact of using excessive effective radiated power on a satellite uplink?",
+    "choices": [
+      "Possibility of commanding the satellite to an improper mode",
+      "Blocking access by other users",
+      "Overloading the satellite batteries",
+      "Possibility of rebooting the satellite control computer"
+    ],
+    "answer": "Blocking access by other users",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "Which of the following are provided by satellite tracking programs?",
+    "choices": [
+      "Maps showing the real-time position of the satellite track over Earth",
+      "The time, azimuth, and elevation of the start, maximum altitude, and end of a pass",
+      "The apparent frequency of the satellite transmission, including effects of Doppler shift",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "What mode of transmission is commonly used by amateur radio satellites?",
+    "choices": [
+      "SSB",
+      "FM",
+      "CW/data",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "What is a satellite beacon?",
+    "choices": [
+      "The primary transmit antenna on the satellite",
+      "An indicator light that shows where to point your antenna",
+      "A reflective surface on the satellite",
+      "A transmission from a satellite that contains status information"
+    ],
+    "answer": "A transmission from a satellite that contains status information",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "Which of the following are inputs to a satellite tracking program?",
+    "choices": [
+      "The satellite transmitted power",
+      "The Keplerian elements",
+      "The last observed time of zero Doppler shift",
+      "All these choices are correct"
+    ],
+    "answer": "The Keplerian elements",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "What is Doppler shift in reference to satellite communications?",
+    "choices": [
+      "A change in the satellite orbit",
+      "A mode where the satellite receives signals on one band and transmits on another",
+      "An observed change in signal frequency caused by relative motion between the satellite and Earth station",
+      "A special digital communications mode for some satellites"
+    ],
+    "answer": "An observed change in signal frequency caused by relative motion between the satellite and Earth station",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "What does it mean if a satellite is operating in U/V mode?",
+    "choices": [
+      "The satellite uplink is in the 15-meter band and the downlink is in the 10-meter band",
+      "The satellite uplink is in the 70-centimeter band and the downlink is in the 2-meter band",
+      "The satellite operates using ultraviolet frequencies",
+      "The satellite frequencies are usually variable"
+    ],
+    "answer": "The satellite uplink is in the 70-centimeter band and the downlink is in the 2-meter band",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "What causes spin fading of satellite signals?",
+    "choices": [
+      "Circular polarized noise interference radiated from the sun",
+      "Rotation of the satellite and its antennas",
+      "Doppler shift of the received signal",
+      "Interfering signals within the satellite uplink band"
+    ],
+    "answer": "Rotation of the satellite and its antennas",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "What does the term LEO mean in reference to communication satellites?",
+    "choices": [
+      "Low Energy Orbit, which conserves battery power",
+      "Low Elevation Orbit, which appears close to the horizon from the earth station",
+      "Low Equilibrium Orbit, which has a slightly unstable period",
+      "Low Earth Orbit, which has a period of around 100 minutes"
+    ],
+    "answer": "Low Earth Orbit, which has a period of around 100 minutes",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "Who is permitted to receive telemetry from an amateur radio satellite?",
+    "choices": [
+      "Anyone",
+      "Only the satellite control operator",
+      "Only the control operator or a licensed radio amateur who has received the encryption key from the control operator",
+      "Only a licensed radio amateur who has received the encryption key from AMSAT"
+    ],
+    "answer": "Anyone",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8B12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8B",
+    "question": "Which of the following is a way to determine whether your satellite uplink power into a linear transponder satellite is neither too low nor too high?",
+    "choices": [
+      "Check your signal strength report in the telemetry data",
+      "Listen for distortion on your downlink signal",
+      "Your signal strength on the downlink should be about the same as the beacon",
+      "Compare your signal to others on the downlink using an internet SDR receiver"
+    ],
+    "answer": "Your signal strength on the downlink should be about the same as the beacon",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "Which of the following methods is used to locate sources of noise interference or jamming?",
+    "choices": [
+      "Echolocation",
+      "Doppler radar",
+      "Radio direction finding",
+      "Phase locking"
+    ],
+    "answer": "Radio direction finding",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "Which of these items would be useful for a hidden transmitter hunt?",
+    "choices": [
+      "Calibrated SWR meter",
+      "A directional antenna",
+      "A directional wattmeter",
+      "All these choices are correct"
+    ],
+    "answer": "A directional antenna",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "What operating activity involves contacting as many stations as possible during a specified period?",
+    "choices": [
+      "Simulated emergency exercises",
+      "Net operations",
+      "Hidden transmitter hunts",
+      "Contesting"
+    ],
+    "answer": "Contesting",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "Which of the following is good practice when contacting another station in a contest?",
+    "choices": [
+      "Signing only the last two letters of your call if there are many other stations calling",
+      "Contacting the station twice to be sure that you are in his log",
+      "Sending only the minimum information needed for proper identification and the contest exchange",
+      "Adding “Please copy” before your exchange"
+    ],
+    "answer": "Sending only the minimum information needed for proper identification and the contest exchange",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "What is a grid locator?",
+    "choices": [
+      "A letter-number designator assigned to a geographic location",
+      "A letter-number designator assigned to an azimuth and elevation",
+      "An instrument for locating faults in power amplifiers",
+      "An instrument for radio direction finding"
+    ],
+    "answer": "A letter-number designator assigned to a geographic location",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "How is over the air access to Internet Radio Linking Project (IRLP) nodes accomplished?",
+    "choices": [
+      "By obtaining a password that is sent via voice to the node",
+      "By using Dual-Tone Multi-Frequency (DTMF) signals",
+      "By entering the proper internet password",
+      "By using Continuous Tone-Coded Squelch System (CTCSS) tone codes"
+    ],
+    "answer": "By using Dual-Tone Multi-Frequency (DTMF) signals",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "What is Voice Over Internet Protocol (VoIP)?",
+    "choices": [
+      "A set of rules specifying how to identify your station when linked over the internet to another station",
+      "A technique employed to “spot” DX stations via the internet",
+      "A technique for measuring the modulation quality of a transmitter using remote sites monitored via the internet",
+      "A method of delivering voice communications over the internet using digital techniques"
+    ],
+    "answer": "A method of delivering voice communications over the internet using digital techniques",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "What is the Internet Radio Linking Project (IRLP)?",
+    "choices": [
+      "A technique to connect amateur radio systems, such as repeaters, via the internet",
+      "A system for providing access to websites via amateur radio",
+      "A system for informing amateurs in real time of the frequency of active DX stations",
+      "A technique for measuring signal strength of an amateur transmitter via the internet"
+    ],
+    "answer": "A technique to connect amateur radio systems, such as repeaters, via the internet",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "Which of the following protocols enables an amateur station to transmit through a repeater without using a radio to initiate the transmission?",
+    "choices": [
+      "IRLP",
+      "D-STAR",
+      "DMR",
+      "EchoLink"
+    ],
+    "answer": "EchoLink",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "What is required before using the EchoLink system?",
+    "choices": [
+      "Complete the required EchoLink training",
+      "Purchase a license to use the EchoLink software",
+      "Register your call sign and provide proof of license",
+      "At least a General Class license"
+    ],
+    "answer": "Register your call sign and provide proof of license",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8C11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8C",
+    "question": "What is an amateur radio station that connects other amateur stations to the internet?",
+    "choices": [
+      "A gateway",
+      "A repeater",
+      "A digipeater",
+      "A beacon"
+    ],
+    "answer": "A gateway",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "Which of the following is a digital communications mode?",
+    "choices": [
+      "Packet radio",
+      "IEEE 802.11",
+      "FT8",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "What is FT8?",
+    "choices": [
+      "A wideband FM voice mode",
+      "A digital mode capable of low signal-to-noise operation",
+      "An eight-channel multiplex mode for FM repeaters",
+      "A digital slow-scan TV mode with forward error correction and automatic color compensation"
+    ],
+    "answer": "A digital mode capable of low signal-to-noise operation",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "What kind of data can be transmitted by APRS?",
+    "choices": [
+      "GPS position data",
+      "Text messages",
+      "Weather data",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "What is meant by the term \"NTSC?\"",
+    "choices": [
+      "A digital transmission standard for encrypting data",
+      "A special mode for satellite uplink",
+      "An analog fast-scan color TV signal",
+      "A frame compression scheme for TV signals"
+    ],
+    "answer": "An analog fast-scan color TV signal",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "Which of the following is an application of APRS?",
+    "choices": [
+      "Providing real-time tactical digital communications in conjunction with a map showing the locations of stations",
+      "Automatically showing the number of packets transmitted via PACTOR during a specific time interval",
+      "Providing voice over internet connection between repeaters",
+      "Providing information on the number of stations signed into a repeater"
+    ],
+    "answer": "Providing real-time tactical digital communications in conjunction with a map showing the locations of stations",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "What does the abbreviation \"PSK\" mean?",
+    "choices": [
+      "Pulse Shift Keying",
+      "Phase Shift Keying",
+      "Packet Sampled Keying",
+      "Power Sampled Keying"
+    ],
+    "answer": "Phase Shift Keying",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "Which of the following describes DMR?",
+    "choices": [
+      "A technique for time-multiplexing two digital voice signals on a single 12.5 kHz repeater channel",
+      "An automatic position tracking mode for FM mobiles communicating through repeaters",
+      "An automatic computer logging technique for hands-off logging when communicating while operating a vehicle",
+      "A digital technique for transmitting on two repeater inputs simultaneously for automatic error correction"
+    ],
+    "answer": "A technique for time-multiplexing two digital voice signals on a single 12.5 kHz repeater channel",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "Which of the following is included in packet radio transmissions?",
+    "choices": [
+      "A checksum that permits error detection",
+      "A header that contains the call sign of the station to which the information is being sent",
+      "Automatic repeat request in case of error",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "What is CW?",
+    "choices": [
+      "A type of electromagnetic propagation",
+      "A digital mode used primarily on 2-meter FM",
+      "Error correction for digital transmission using code words",
+      "Another name for a Morse code transmission"
+    ],
+    "answer": "Another name for a Morse code transmission",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "Which of the following operating activities is supported by digital mode software in the WSJT-X software suite?",
+    "choices": [
+      "Earth-Moon-Earth",
+      "Weak signal propagation beacons",
+      "Meteor scatter",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "What is the role of ARQ in a transmission system?",
+    "choices": [
+      "A special transmission format limited to video signals",
+      "A system used to encrypt command signals to an amateur radio satellite",
+      "An error correction method in which the receiving station detects errors and sends a request for retransmission",
+      "A method of compressing data using autonomous reiterative Q codes prior to final encoding"
+    ],
+    "answer": "An error correction method in which the receiving station detects errors and sends a request for retransmission",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T8D12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T8D",
+    "question": "Which of the following best describes an amateur radio mesh network?",
+    "choices": [
+      "An amateur-radio data network using commercial Wi-Fi equipment with modified firmware",
+      "A wide-bandwidth digital voice mode employing DMR protocols",
+      "An amateur-radio satellite communications network using modified commercial satellite TV hardware",
+      "An internet linking protocol allowing communication through repeaters around the world"
+    ],
+    "answer": "An amateur-radio data network using commercial Wi-Fi equipment with modified firmware",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "What is a beam antenna?",
+    "choices": [
+      "An antenna built from square aluminum beams",
+      "An omnidirectional antenna invented by Clarence Beam",
+      "An antenna that concentrates signals in one direction",
+      "An antenna that focuses the signal into two intense rays"
+    ],
+    "answer": "An antenna that concentrates signals in one direction",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "Which of the following describes a type of antenna loading?",
+    "choices": [
+      "Electrically lengthening by inserting inductors in radiating elements",
+      "Inserting a resistor in the radiating portion of the antenna to make it resonant",
+      "Installing a spring in the base of a mobile vertical antenna to make it more flexible",
+      "Strengthening the radiating elements of a beam antenna to better resist wind damage"
+    ],
+    "answer": "Electrically lengthening by inserting inductors in radiating elements",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "How is the polarization of an antenna described?",
+    "choices": [
+      "By the shape of the driven element",
+      "By the orientation of the electric field",
+      "By the orientation of the magnetic field",
+      "By the direction of radiation"
+    ],
+    "answer": "By the orientation of the electric field",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "What is a disadvantage of a handheld radio transceiver’s short flexible antenna compared to a full-sized quarter- wave antenna?",
+    "choices": [
+      "It has low efficiency",
+      "It transmits only circularly polarized signals",
+      "It is more susceptible to receiver desensitization",
+      "It only works on analog signals, not digital ones"
+    ],
+    "answer": "It has low efficiency",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "Which of the following increases the resonant frequency of a dipole antenna?",
+    "choices": [
+      "Lengthening it",
+      "Inserting coils in series with radiating wires",
+      "Shortening it",
+      "Adding capacitive loading to the ends of the radiating wires"
+    ],
+    "answer": "Shortening it",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "Which of the following types of antennas offers the greatest gain?",
+    "choices": [
+      "5/8 wave vertical",
+      "Isotropic",
+      "J pole",
+      "Yagi"
+    ],
+    "answer": "Yagi",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "What is a potential drawback of using a handheld VHF transceiver inside a vehicle that lacks an externally mounted antenna?",
+    "choices": [
+      "Signal strength is reduced due to the shielding effect of the vehicle",
+      "The bandwidth of the antenna will decrease, increasing SWR",
+      "The SWR might decrease, decreasing the signal strength",
+      "The handheld will overheat due to reflected power in the vehicle"
+    ],
+    "answer": "Signal strength is reduced due to the shielding effect of the vehicle",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "Why is a 19-inch-long vertical antenna often used on 2 meters?",
+    "choices": [
+      "It has high gain",
+      "It is a resonant half-wave",
+      "It is a resonant quarter-wave",
+      "It has low RF radiation exposure"
+    ],
+    "answer": "It is a resonant quarter-wave",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "What is an advantage of a 5/8-wavelength whip antenna for VHF or UHF mobile service compared to a 1/4-wave antenna?",
+    "choices": [
+      "It has more gain",
+      "It radiates at a higher angle",
+      "It has lower SWR",
+      "It has lower impedance"
+    ],
+    "answer": "It has more gain",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "In which direction does a half-wave dipole antenna radiate the strongest signal?",
+    "choices": [
+      "Equally in all directions",
+      "Off the ends of the antenna",
+      "In the direction of the feed line",
+      "Broadside to the antenna"
+    ],
+    "answer": "Broadside to the antenna",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9A11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9A",
+    "question": "What is antenna gain?",
+    "choices": [
+      "The additional power that is added to the transmitter power",
+      "The additional power that is required in the antenna when transmitting on a higher frequency",
+      "The increase in signal strength in a specified direction compared to a reference antenna",
+      "The increase in impedance on receive or transmit compared to a reference antenna"
+    ],
+    "answer": "The increase in signal strength in a specified direction compared to a reference antenna",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "Which of the following connectors should be carefully taped for weather protection when used outdoors?",
+    "choices": [
+      "PL259",
+      "BNC",
+      "Type N",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "What is the most common impedance of coaxial cables used in amateur radio?",
+    "choices": [
+      "8 ohms",
+      "50 ohms",
+      "600 ohms",
+      "12 ohms"
+    ],
+    "answer": "50 ohms",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "Why is coaxial cable the most common feed line for amateur radio antenna systems?",
+    "choices": [
+      "It is easy to use and requires few special installation considerations",
+      "It has less loss than any other type of feed line",
+      "It can handle more power than any other type of feed line",
+      "It is less expensive than any other type of feed line"
+    ],
+    "answer": "It is easy to use and requires few special installation considerations",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "What is the major function of an antenna tuner (antenna coupler)?",
+    "choices": [
+      "It matches the antenna system impedance to the transceiver's output impedance",
+      "It helps a receiver automatically tune in weak stations",
+      "It allows an antenna to be used on both transmit and receive",
+      "It automatically selects the proper antenna for the frequency band being used"
+    ],
+    "answer": "It matches the antenna system impedance to the transceiver's output impedance",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "What happens as the frequency of a signal in coaxial cable is increased?",
+    "choices": [
+      "The characteristic impedance decreases",
+      "The loss decreases",
+      "The characteristic impedance increases",
+      "The loss increases"
+    ],
+    "answer": "The loss increases",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "Which of the following connector types is most suitable as an RF connector for frequencies above 400 MHz?",
+    "choices": [
+      "PL-259",
+      "Type N",
+      "RS-213",
+      "DB-25"
+    ],
+    "answer": "Type N",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "Which of the following is true of PL-259 type coax connectors?",
+    "choices": [
+      "They are preferred for microwave operation",
+      "They are watertight",
+      "They are commonly used at HF and VHF frequencies",
+      "They are a bayonet-type connector"
+    ],
+    "answer": "They are commonly used at HF and VHF frequencies",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "Which of the following is a source of loss in coaxial feed line?",
+    "choices": [
+      "Water intrusion into coaxial connectors",
+      "High SWR",
+      "Multiple connectors in the line",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "What can cause erratic changes in SWR?",
+    "choices": [
+      "Local thunderstorm",
+      "Loose connection in the antenna or feed line",
+      "Over-modulation",
+      "Overload from a strong local station"
+    ],
+    "answer": "Loose connection in the antenna or feed line",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "What is the electrical difference between RG-58 and RG-213 coaxial cable?",
+    "choices": [
+      "There is no significant difference between the two types",
+      "RG-58 cable has two shields",
+      "RG-213 cable has less loss at a given frequency",
+      "RG-58 cable can handle higher power levels"
+    ],
+    "answer": "RG-213 cable has less loss at a given frequency",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "Which of the following types of feed line has the lowest loss?",
+    "choices": [
+      "50-ohm flexible coax",
+      "Multi-conductor unbalanced cable",
+      "Air-insulated hardline",
+      "75-ohm flexible coax"
+    ],
+    "answer": "Air-insulated hardline",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T9B12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T9B",
+    "question": "What is standing wave ratio (SWR)?",
+    "choices": [
+      "A measure of how well a load is matched to a transmission line",
+      "The ratio of amplifier power output to input",
+      "The transmitter efficiency ratio",
+      "An indication of the quality of your station’s ground connection"
+    ],
+    "answer": "A measure of how well a load is matched to a transmission line",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "Which of the following is a safety hazard of a 12-volt storage battery that lacks internal protection circuitry?",
+    "choices": [
+      "Touching both terminals with your hands can cause electrical shock",
+      "Shorting the terminals can cause burns, fire, or an explosion",
+      "RF emissions from a nearby transmitter can cause the electrolyte to emit poison gas",
+      "All these choices are correct"
+    ],
+    "answer": "Shorting the terminals can cause burns, fire, or an explosion",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "What health hazard is posed by electrical current flowing through the body?",
+    "choices": [
+      "It may cause injury by heating body tissue",
+      "It may disrupt the electrical functions of cells",
+      "It may cause involuntary muscle contractions",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "In the United States, what circuit does black wire insulation indicate in a three-wire 120 V AC cable?",
+    "choices": [
+      "Neutral",
+      "Hot",
+      "Equipment ground",
+      "Negative"
+    ],
+    "answer": "Hot",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "What is the purpose of a fuse in an electrical circuit?",
+    "choices": [
+      "To prevent power supply ripple from damaging a component",
+      "To remove power in case of an overload",
+      "To limit current and prevent shocks",
+      "All these choices are correct"
+    ],
+    "answer": "To remove power in case of an overload",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "Why should a 5-ampere fuse never be replaced with a 20-ampere fuse?",
+    "choices": [
+      "The larger fuse would be likely to blow because it is rated for higher current",
+      "The power supply ripple would greatly increase",
+      "Excessive current could cause a fire",
+      "Voltage drop in the higher current fuse could result in excessively low voltage to the device"
+    ],
+    "answer": "Excessive current could cause a fire",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "What is a good way to guard against electrical shock at your station?",
+    "choices": [
+      "Use three-wire cords and plugs for all AC powered equipment",
+      "Connect all AC powered station equipment to a common safety ground",
+      "Ensure all capacitors used for high-voltage DC are fully discharged before working inside equipment",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "Where should a lightning arrester be installed in a coaxial feed line?",
+    "choices": [
+      "At the output connector of a transceiver",
+      "At the antenna feed point",
+      "At the AC power service panel",
+      "On a grounded panel near where feed lines enter the building"
+    ],
+    "answer": "On a grounded panel near where feed lines enter the building",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "Where should a fuse or circuit breaker be installed in a 120V AC power circuit?",
+    "choices": [
+      "In series with the hot conductor only",
+      "In series with the hot and neutral conductors",
+      "In parallel with the hot conductor only",
+      "In parallel with the hot and neutral conductors"
+    ],
+    "answer": "In series with the hot conductor only",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "What should be done to all external ground rods or earth connections?",
+    "choices": [
+      "Waterproof them with silicone caulk or electrical tape",
+      "Keep them as far apart as possible",
+      "Bond them together with heavy wire or conductive strap",
+      "Tune them for resonance on the lowest frequency of operation"
+    ],
+    "answer": "Bond them together with heavy wire or conductive strap",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "What hazard exists when rapidly charging or discharging an unprotected battery?",
+    "choices": [
+      "Overheating or out-gassing",
+      "Excess output ripple",
+      "Electric shock",
+      "Overvoltage"
+    ],
+    "answer": "Overheating or out-gassing",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "What hazard exists in a power supply immediately after turning it off?",
+    "choices": [
+      "Circulating currents in the dc filter",
+      "Leakage flux in the power transformer",
+      "Voltage transients from kickback diodes",
+      "Charge stored in filter capacitors"
+    ],
+    "answer": "Charge stored in filter capacitors",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0A12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0A",
+    "question": "Which of the following precautions should be taken when measuring high voltages with a voltmeter?",
+    "choices": [
+      "Ensure that the voltmeter has very low impedance",
+      "Ensure that the voltmeter and its leads are rated for use at the voltages being measured",
+      "Ensure that the circuit is grounded through the voltmeter",
+      "Ensure that the voltmeter is set to the correct frequency"
+    ],
+    "answer": "Ensure that the voltmeter and its leads are rated for use at the voltages being measured",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "Which of the following is good practice when installing ground wires on a tower for lightning protection?",
+    "choices": [
+      "Put a drip loop in the ground connection to prevent water damage to the ground system",
+      "Make sure all ground wire bends are right angles",
+      "Ensure that connections are short and direct",
+      "All these choices are correct"
+    ],
+    "answer": "Ensure that connections are short and direct",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "What is required when climbing an antenna tower?",
+    "choices": [
+      "Have sufficient training on safe tower climbing techniques",
+      "Use appropriate tie-off to the tower at all times",
+      "Always wear an approved climbing harness",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "Under what circumstances is it safe to climb a tower without a helper or observer?",
+    "choices": [
+      "When no electrical work is being performed",
+      "When no mechanical work is being performed",
+      "When the work being done is not more than 20 feet above the ground",
+      "Never"
+    ],
+    "answer": "Never",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "Which of the following is an important safety precaution to observe when putting up an antenna tower?",
+    "choices": [
+      "Wear a ground strap connected to your wrist at all times",
+      "Insulate the base of the tower to avoid lightning strikes",
+      "Look for and stay clear of any overhead electrical wires",
+      "All these choices are correct"
+    ],
+    "answer": "Look for and stay clear of any overhead electrical wires",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "What is the purpose of a safety wire through a turnbuckle used to tension guy lines?",
+    "choices": [
+      "Secure the guy line if the turnbuckle breaks",
+      "Prevent loosening of the turnbuckle from vibration",
+      "Provide a ground path for lightning strikes",
+      "Provide an ability to measure for proper tensioning"
+    ],
+    "answer": "Prevent loosening of the turnbuckle from vibration",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "What is the minimum safe distance from a power line to allow when installing an antenna?",
+    "choices": [
+      "Add the height of the antenna to the height of the power line and multiply by a factor of 1.5",
+      "The height of the power line above ground",
+      "1/2 wavelength at the operating frequency",
+      "Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires"
+    ],
+    "answer": "Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "Which of the following is an important safety rule to remember when using a crank-up tower?",
+    "choices": [
+      "This type of tower must never be painted",
+      "This type of tower must never be grounded",
+      "This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed",
+      "All these choices are correct"
+    ],
+    "answer": "This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "Which is a proper grounding method for a tower?",
+    "choices": [
+      "A single four-foot ground rod, driven into the ground no more than 12 inches from the base",
+      "A ferrite-core RF choke connected between the tower and ground",
+      "A connection between the tower base and a cold-water pipe",
+      "Separate eight-foot ground rods for each tower leg, bonded to the tower and each other"
+    ],
+    "answer": "Separate eight-foot ground rods for each tower leg, bonded to the tower and each other",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "Why should you avoid attaching an antenna to a utility pole?",
+    "choices": [
+      "The antenna will not work properly because of induced voltages",
+      "The antenna may unbalance the power transformer, causing power fluctuations",
+      "The antenna could contact high-voltage power lines",
+      "All these choices are correct"
+    ],
+    "answer": "The antenna could contact high-voltage power lines",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "Which of the following is true when installing grounding conductors used for lightning protection?",
+    "choices": [
+      "Use only non-insulated wire",
+      "Wires must be carefully routed with precise right-angle bends",
+      "Sharp bends must be avoided",
+      "Common grounds must be avoided"
+    ],
+    "answer": "Sharp bends must be avoided",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0B11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0B",
+    "question": "Which of the following establishes grounding requirements for an amateur radio tower or antenna?",
+    "choices": [
+      "FCC Part 97 rules",
+      "Local electrical codes",
+      "FAA tower lighting regulations",
+      "UL recommended practices"
+    ],
+    "answer": "Local electrical codes",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C01",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "What type of radiation are radio signals?",
+    "choices": [
+      "Gamma radiation",
+      "Ionizing radiation",
+      "Alpha radiation",
+      "Non-ionizing radiation"
+    ],
+    "answer": "Non-ionizing radiation",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C02",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "Which of the following bands has the lowest maximum permissible exposure for RF safety?",
+    "choices": [
+      "3.5 MHz",
+      "50 MHz",
+      "440 MHz",
+      "1296 MHz"
+    ],
+    "answer": "50 MHz",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C03",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "How does the allowable power density for RF safety change if duty cycle changes from 100 percent to 50 percent?",
+    "choices": [
+      "It increases by a factor of 3",
+      "It decreases by 50 percent",
+      "It increases by a factor of 2",
+      "There is no adjustment allowed for lower duty cycle"
+    ],
+    "answer": "It increases by a factor of 2",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C04",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "What factors affect the RF exposure of people near an amateur station antenna?",
+    "choices": [
+      "Frequency and power level of the RF field",
+      "Distance from the antenna to a person",
+      "Radiation pattern of the antenna",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C05",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "Why do exposure limits vary with frequency?",
+    "choices": [
+      "Lower frequency RF fields have more energy than higher frequency fields",
+      "Lower frequency RF fields do not penetrate the human body",
+      "Higher frequency RF fields are transient in nature",
+      "The human body absorbs more RF energy at some frequencies than at others"
+    ],
+    "answer": "The human body absorbs more RF energy at some frequencies than at others",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C06",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "Which of the following is an acceptable method to determine whether your station complies with FCC RF exposure regulations?",
+    "choices": [
+      "By calculation based on FCC OET Bulletin 65",
+      "By calculation based on computer modeling",
+      "By measurement of field strength using calibrated equipment",
+      "All these choices are correct"
+    ],
+    "answer": "All these choices are correct",
+    "answerLetter": "D",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C07",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "What hazard is created by touching an antenna during a transmission?",
+    "choices": [
+      "Electrocution",
+      "RF burn to skin",
+      "Exposure to ionizing radiation",
+      "All these choices are correct"
+    ],
+    "answer": "RF burn to skin",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C08",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "Which of the following actions can reduce exposure to RF radiation?",
+    "choices": [
+      "Relocate antennas",
+      "Relocate the transmitter",
+      "Increase the duty cycle",
+      "All these choices are correct"
+    ],
+    "answer": "Relocate antennas",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C09",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "How can you make sure your station stays in compliance with RF safety regulations?",
+    "choices": [
+      "By informing the FCC of any changes made in your station",
+      "By re-evaluating the station whenever an item in the transmitter or antenna system is changed",
+      "By making sure your antennas have low SWR",
+      "By using only Underwriter Laboratories approved transmitting equipment"
+    ],
+    "answer": "By re-evaluating the station whenever an item in the transmitter or antenna system is changed",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C10",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "Why is duty cycle one of the factors used to determine safe RF radiation exposure levels?",
+    "choices": [
+      "It affects the average exposure to radiation",
+      "It affects the peak exposure to radiation",
+      "It takes into account the antenna feed line loss",
+      "It takes into account the thermal effects of the final amplifier"
+    ],
+    "answer": "It affects the average exposure to radiation",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C11",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "What is the definition of duty cycle during the averaging time for RF exposure?",
+    "choices": [
+      "The difference between the lowest and highest power output of a transmitter",
+      "The difference between the PEP and the average power output of a transmitter",
+      "The percentage of time that a transmitter is transmitting",
+      "The percentage of time that a transmitter is not transmitting"
+    ],
+    "answer": "The percentage of time that a transmitter is transmitting",
+    "answerLetter": "C",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C12",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "How does RF radiation differ from ionizing radiation (radioactivity)?",
+    "choices": [
+      "RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA",
+      "RF radiation can only be detected with an RF dosimeter",
+      "RF radiation is limited in range to a few feet",
+      "RF radiation is perfectly safe"
+    ],
+    "answer": "RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA",
+    "answerLetter": "A",
+    "reference": "",
+    "explanation": ""
+  },
+  {
+    "id": "T0C13",
+    "exam": "Technician",
+    "pool": "2026-2030",
+    "section": "T0C",
+    "question": "Who is responsible for ensuring that no person is exposed to RF energy above the FCC exposure limits?",
+    "choices": [
+      "The FCC",
+      "The station licensee",
+      "Anyone who is near an antenna",
+      "The local zoning board"
+    ],
+    "answer": "The station licensee",
+    "answerLetter": "B",
+    "reference": "",
+    "explanation": ""
   }
 ];
