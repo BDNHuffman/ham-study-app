@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 
 const QUESTIONS = [
   {
@@ -43,7 +43,7 @@ export default function App() {
   }
 
   function mark(correct) {
-    setScore(s => ({
+    setScore((s) => ({
       seen: s.seen + 1,
       correct: s.correct + (correct ? 1 : 0),
       missed: s.missed + (correct ? 0 : 1)
@@ -53,8 +53,9 @@ export default function App() {
 
   function choose(choice) {
     if (selected) return;
+
     setSelected(choice);
-    setScore(s => ({
+    setScore((s) => ({
       seen: s.seen + 1,
       correct: s.correct + (choice === card.answer ? 1 : 0),
       missed: s.missed + (choice === card.answer ? 0 : 1)
@@ -72,51 +73,106 @@ export default function App() {
         </p>
         <div className="hero-actions">
           <button onClick={() => setMode("flashcards")}>Start Flashcards</button>
-          <button className="secondary" onClick={() => setMode("quiz")}>Quiz Mode</button>
+          <button className="secondary" onClick={() => setMode("quiz")}>
+            Quiz Mode
+          </button>
         </div>
       </section>
 
       {mode === "home" && (
-        <section className="grid">
-          <button className="card clickable" onClick={() => setMode("flashcards")}>
-            <span>01</span>
-            <h2>Flashcards</h2>
-            <p>Study FCC rules, antennas, safety, repeaters, and electronics.</p>
-          </button>
+        <>
+          <section className="grid">
+            <button className="card clickable" onClick={() => setMode("flashcards")}>
+              <span>01</span>
+              <h2>Flashcards</h2>
+              <p>Study FCC rules, antennas, safety, repeaters, and electronics.</p>
+            </button>
 
-          <button className="card clickable" onClick={() => setMode("quiz")}>
-            <span>02</span>
-            <h2>Practice Quiz</h2>
-            <p>Answer sample Technician questions and build confidence.</p>
-          </button>
+            <button className="card clickable" onClick={() => setMode("quiz")}>
+              <span>02</span>
+              <h2>Practice Quiz</h2>
+              <p>Answer sample Technician questions and build confidence.</p>
+            </button>
 
-          <div className="card">
-            <span>03</span>
-            <h2>Progress</h2>
-            <p>Seen: {score.seen} • Correct: {score.correct} • Missed: {score.missed}</p>
-          </div>
-        </section>
+            <div className="card">
+              <span>03</span>
+              <h2>Progress</h2>
+              <p>
+                Seen: {score.seen} • Correct: {score.correct} • Missed:{" "}
+                {score.missed}
+              </p>
+            </div>
+          </section>
+
+          <section className="info-section">
+            <h2>What’s Inside the Technician Study App</h2>
+
+            <div className="info-grid">
+              <div className="info-card">
+                <h3>📚 Full Technician Question Pool</h3>
+                <p>
+                  Practice from the official FCC Technician exam pool containing
+                  roughly 400 published questions used for real testing.
+                </p>
+              </div>
+
+              <div className="info-card">
+                <h3>📡 Core Topics Covered</h3>
+                <p>
+                  FCC rules, operating procedures, repeaters, antennas, feed lines,
+                  propagation, electronics, safety, batteries, grounding, and
+                  emergency use.
+                </p>
+              </div>
+
+              <div className="info-card">
+                <h3>🧠 Flashcards + Quiz Mode</h3>
+                <p>
+                  Learn concepts with flashcards, then switch to random quizzes to
+                  simulate real exam pressure and track weak spots.
+                </p>
+              </div>
+
+              <div className="info-card">
+                <h3>🏕 Built for Real Life</h3>
+                <p>
+                  Perfect for homesteads, rural communication, storms, travel,
+                  off-grid readiness, and everyday radio curiosity.
+                </p>
+              </div>
+            </div>
+          </section>
+        </>
       )}
 
       {mode === "flashcards" && (
         <section className="study-panel">
           <div className="panel-top">
-            <button className="secondary" onClick={() => setMode("home")}>← Home</button>
-            <span>{card.topic} • {card.id}</span>
+            <button className="secondary" onClick={() => setMode("home")}>
+              ← Home
+            </button>
+            <span>
+              {card.topic} • {card.id}
+            </span>
           </div>
+
           <h2>{card.question}</h2>
+
           {revealed && (
             <div className="answer">
               <h3>{card.answer}</h3>
               <p>{card.explanation}</p>
             </div>
           )}
+
           <div className="hero-actions">
             {!revealed ? (
               <button onClick={() => setRevealed(true)}>Reveal Answer</button>
             ) : (
               <>
-                <button className="secondary" onClick={() => mark(false)}>Missed It</button>
+                <button className="secondary" onClick={() => mark(false)}>
+                  Missed It
+                </button>
                 <button onClick={() => mark(true)}>Got It</button>
               </>
             )}
@@ -127,12 +183,18 @@ export default function App() {
       {mode === "quiz" && (
         <section className="study-panel">
           <div className="panel-top">
-            <button className="secondary" onClick={() => setMode("home")}>← Home</button>
-            <span>{card.topic} • {card.id}</span>
+            <button className="secondary" onClick={() => setMode("home")}>
+              ← Home
+            </button>
+            <span>
+              {card.topic} • {card.id}
+            </span>
           </div>
+
           <h2>{card.question}</h2>
+
           <div className="choices">
-            {card.choices.map(choice => (
+            {card.choices.map((choice) => (
               <button
                 key={choice}
                 onClick={() => choose(choice)}
@@ -148,6 +210,7 @@ export default function App() {
               </button>
             ))}
           </div>
+
           {selected && (
             <div className="answer">
               <h3>{selected === card.answer ? "Correct" : "Not quite"}</h3>
