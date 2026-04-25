@@ -1,4 +1,66 @@
+import { useMemo, useState } from "react";
+
+const QUESTIONS = [
+  {
+    id: "T1A01",
+    topic: "FCC Rules",
+    question: "Which agency regulates amateur radio in the United States?",
+    choices: ["FEMA", "FCC", "ARRL", "NOAA"],
+    answer: "FCC",
+    explanation: "The FCC makes and enforces amateur radio rules in the United States."
+  },
+  {
+    id: "T2A01",
+    topic: "Repeaters",
+    question: "What is the main purpose of an amateur radio repeater?",
+    choices: ["Encrypt traffic", "Extend communication range", "Charge batteries", "Measure SWR"],
+    answer: "Extend communication range",
+    explanation: "Repeaters receive your signal and retransmit it, usually from a high location."
+  },
+  {
+    id: "T7C01",
+    topic: "Antennas",
+    question: "Why does antenna height matter so much on VHF and UHF?",
+    choices: ["Signals are mostly line-of-sight", "It changes your call sign", "It lowers license class", "It removes static from AM"],
+    answer: "Signals are mostly line-of-sight",
+    explanation: "Higher antennas usually see farther over hills, trees, buildings, and terrain."
+  }
+];
+
 export default function App() {
+  const [mode, setMode] = useState("home");
+  const [index, setIndex] = useState(0);
+  const [revealed, setRevealed] = useState(false);
+  const [selected, setSelected] = useState(null);
+  const [score, setScore] = useState({ seen: 0, correct: 0, missed: 0 });
+
+  const card = QUESTIONS[index % QUESTIONS.length];
+
+  function next() {
+    setIndex((index + 1) % QUESTIONS.length);
+    setRevealed(false);
+    setSelected(null);
+  }
+
+  function mark(correct) {
+    setScore(s => ({
+      seen: s.seen + 1,
+      correct: s.correct + (correct ? 1 : 0),
+      missed: s.missed + (correct ? 0 : 1)
+    }));
+    next();
+  }
+
+  function choose(choice) {
+    if (selected) return;
+    setSelected(choice);
+    setScore(s => ({
+      seen: s.seen + 1,
+      correct: s.correct + (choice === card.answer ? 1 : 0),
+      missed: s.missed + (choice === card.answer ? 0 : 1)
+    }));
+  }
+
   return (
     <main className="app">
       <section className="hero">
@@ -9,30 +71,92 @@ export default function App() {
           hiking radios, repeaters, and general radio curiosity.
         </p>
         <div className="hero-actions">
-          <button>Start Flashcards</button>
-          <button className="secondary">Quiz Mode</button>
+          <button onClick={() => setMode("flashcards")}>Start Flashcards</button>
+          <button className="secondary" onClick={() => setMode("quiz")}>Quiz Mode</button>
         </div>
       </section>
 
-      <section className="grid">
-        <div className="card">
-          <span>01</span>
-          <h2>Flashcards</h2>
-          <p>Study FCC rules, antennas, safety, repeaters, and electronics.</p>
-        </div>
+      {mode === "home" && (
+        <section className="grid">
+          <button className="card clickable" onClick={() => setMode("flashcards")}>
+            <span>01</span>
+            <h2>Flashcards</h2>
+            <p>Study FCC rules, antennas, safety, repeaters, and electronics.</p>
+          </button>
 
-        <div className="card">
-          <span>02</span>
-          <h2>Practice Quiz</h2>
-          <p>Answer sample Technician questions and build confidence.</p>
-        </div>
+          <button className="card clickable" onClick={() => setMode("quiz")}>
+            <span>02</span>
+            <h2>Practice Quiz</h2>
+            <p>Answer sample Technician questions and build confidence.</p>
+          </button>
 
-        <div className="card">
-          <span>03</span>
-          <h2>Progress</h2>
-          <p>Track what you’ve seen, what you missed, and what needs review.</p>
-        </div>
-      </section>
+          <div className="card">
+            <span>03</span>
+            <h2>Progress</h2>
+            <p>Seen: {score.seen} • Correct: {score.correct} • Missed: {score.missed}</p>
+          </div>
+        </section>
+      )}
+
+      {mode === "flashcards" && (
+        <section className="study-panel">
+          <div className="panel-top">
+            <button className="secondary" onClick={() => setMode("home")}>← Home</button>
+            <span>{card.topic} • {card.id}</span>
+          </div>
+          <h2>{card.question}</h2>
+          {revealed && (
+            <div className="answer">
+              <h3>{card.answer}</h3>
+              <p>{card.explanation}</p>
+            </div>
+          )}
+          <div className="hero-actions">
+            {!revealed ? (
+              <button onClick={() => setRevealed(true)}>Reveal Answer</button>
+            ) : (
+              <>
+                <button className="secondary" onClick={() => mark(false)}>Missed It</button>
+                <button onClick={() => mark(true)}>Got It</button>
+              </>
+            )}
+          </div>
+        </section>
+      )}
+
+      {mode === "quiz" && (
+        <section className="study-panel">
+          <div className="panel-top">
+            <button className="secondary" onClick={() => setMode("home")}>← Home</button>
+            <span>{card.topic} • {card.id}</span>
+          </div>
+          <h2>{card.question}</h2>
+          <div className="choices">
+            {card.choices.map(choice => (
+              <button
+                key={choice}
+                onClick={() => choose(choice)}
+                className={
+                  selected && choice === card.answer
+                    ? "correct"
+                    : selected === choice
+                    ? "wrong"
+                    : "secondary"
+                }
+              >
+                {choice}
+              </button>
+            ))}
+          </div>
+          {selected && (
+            <div className="answer">
+              <h3>{selected === card.answer ? "Correct" : "Not quite"}</h3>
+              <p>{card.explanation}</p>
+              <button onClick={next}>Next Question</button>
+            </div>
+          )}
+        </section>
+      )}
     </main>
-  )
+  );
 }
