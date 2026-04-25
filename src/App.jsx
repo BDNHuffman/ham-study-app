@@ -2,37 +2,6 @@ import { useState } from "react";
 import { QUESTIONS } from "./questions";
 
 export default function App() {
-  ...
-}
-
-const QUESTIONS = [
-  {
-    id: "T1A01",
-    topic: "FCC Rules",
-    question: "Which agency regulates amateur radio in the United States?",
-    choices: ["FEMA", "FCC", "ARRL", "NOAA"],
-    answer: "FCC",
-    explanation: "The FCC makes and enforces amateur radio rules in the United States."
-  },
-  {
-    id: "T2A01",
-    topic: "Repeaters",
-    question: "What is the main purpose of an amateur radio repeater?",
-    choices: ["Encrypt traffic", "Extend communication range", "Charge batteries", "Measure SWR"],
-    answer: "Extend communication range",
-    explanation: "Repeaters receive your signal and retransmit it, usually from a high location."
-  },
-  {
-    id: "T7C01",
-    topic: "Antennas",
-    question: "Why does antenna height matter so much on VHF and UHF?",
-    choices: ["Signals are mostly line-of-sight", "It changes your call sign", "It lowers license class", "It removes static from AM"],
-    answer: "Signals are mostly line-of-sight",
-    explanation: "Higher antennas usually see farther over hills, trees, buildings, and terrain."
-  }
-];
-
-export default function App() {
   const [mode, setMode] = useState("home");
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -76,6 +45,7 @@ export default function App() {
           Technician license prep for homestead communications, rural preparedness,
           hiking radios, repeaters, and general radio curiosity.
         </p>
+
         <div className="hero-actions">
           <button onClick={() => setMode("flashcards")}>Start Flashcards</button>
           <button className="secondary" onClick={() => setMode("quiz")}>
@@ -156,8 +126,9 @@ export default function App() {
             <button className="secondary" onClick={() => setMode("home")}>
               ← Home
             </button>
+
             <span>
-              {card.topic} • {card.id}
+              {card.section} • {card.id}
             </span>
           </div>
 
@@ -191,8 +162,9 @@ export default function App() {
             <button className="secondary" onClick={() => setMode("home")}>
               ← Home
             </button>
+
             <span>
-              {card.topic} • {card.id}
+              {card.section} • {card.id}
             </span>
           </div>
 
