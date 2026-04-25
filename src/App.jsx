@@ -1,4 +1,9 @@
-import { useState } from "./questions";
+import { useState } from "react";
+import { QUESTIONS } from "./questions";
+
+export default function App() {
+  ...
+}
 
 const QUESTIONS = [
   {
